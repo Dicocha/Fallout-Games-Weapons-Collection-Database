@@ -1,78 +1,132 @@
 from pathlib import Path
 import pandas as pd
+import inspect
 
 class Loader:
     def __init__(self, output_path="./output/fallout_weapons.sql"):
         self.output_path = Path(output_path)
         self.output_path.parent.mkdir(parents=True, exist_ok=True)
-        # Standard SQL Reserved words often found in your data: 
-        # range, value, special, group, order, table, connection
-    
-    def create_queries(self, tables_dict):
-        schema_queries = []
-        data_queries = []
 
-        # Sort keys to maintain a consistent output order
-        sorted_tables = sorted(tables_dict.keys())
+    def create_relational_queries(self, data_dict):
+        queries = []
 
-        for table_name in sorted_tables:
-            df = tables_dict[table_name]
-            
-            # 1. SCHEMA DEFINITION
-            cols_list = []
-            for col in df.columns:
-                # Wrap column names in [] to avoid reserved word errors (e.g., [range])
-                if col.lower() == 'id':
-                    cols_list.append(f"    [{col}] INTEGER PRIMARY KEY")
-                else:
-                    cols_list.append(f"    [{col}] TEXT")
-            
-            cols_def = ",\n".join(cols_list)
-            # Wrap table names in [] as well
-            schema_queries.append(f"-- Table Structure for [{table_name}]\n"
-                                 f"CREATE TABLE IF NOT EXISTS [{table_name}] (\n{cols_def}\n);\n")
-            
-            # 2. DATA INSERTIONS
-            # Build the column list once for this table
-            col_names_str = ", ".join([f"[{c}]" for c in df.columns])
-            
-            data_queries.append(f"-- Data for [{table_name}]")
-            for _, row in df.iterrows():
-                values = []
-                for val in row:
-                    if pd.isnull(val) or str(val).lower() == 'nan':
-                        values.append("NULL")
-                    else:
-                        # Escape single quotes and convert to string
-                        clean_val = str(val).replace("'", "''")
-                        values.append(f"'{clean_val}'")
-                
-                query = f"\nINSERT INTO [{table_name}] ({col_names_str}) VALUES ({', '.join(values)});"
-                data_queries.append(query)
-            
-            # Add a separator between tables
-            data_queries.append("") 
+        def escape(val):
+            return str(val).replace("'", "''")
 
-        return schema_queries, data_queries
+        def sql_val(val):
+            if pd.isna(val) or val is None: return "NULL"
+            return f"'{escape(val)}'"
 
-    def to_sql_file(self, tables_dict):
-        schemas, data = self.create_queries(tables_dict)
-        
+        def sql_num(val):
+            if pd.isna(val) or val is None: return "NULL"
+            return val
+
+        # 1. INSERT GAMES (Insert masivo)
+        queries.append("\n-- ----------------------------\n-- SECCIÓN: JUEGOS\n-- ----------------------------")
+        game_rows = [
+            f"('{escape(r['title'])}', {sql_num(r['release_year'])}, '{escape(r['studio'])}')" 
+            for _, r in data_dict['games'].iterrows()
+        ]
+        if game_rows:
+            queries.append(f"INSERT INTO games (title, release_year, studio) VALUES \n    {',\n    '.join(game_rows)}\nON CONFLICT (title) DO NOTHING;")
+
+        # 2. INSERT TYPES (Weapon & Ammo)
+        queries.append("\n-- ----------------------------\n-- SECCIÓN: CATÁLOGOS\n-- ----------------------------")
+        type_rows = [f"('{escape(t)}')" for t in data_dict['weapon_types']['type_name']]
+        if type_rows:
+            queries.append(f"INSERT INTO weapon_types (type_name) VALUES \n    {',\n    '.join(type_rows)}\nON CONFLICT (type_name) DO NOTHING;\n")
+
+        ammo_rows = [f"('{escape(a)}')" for a in data_dict['ammo_types']['ammo_name'] if pd.notna(a)]
+        if ammo_rows:
+            queries.append(f"INSERT INTO ammo_types (ammo_name) VALUES \n    {',\n    '.join(ammo_rows)}\nON CONFLICT (ammo_name) DO NOTHING;")
+
+        # 3. INSERT WEAPONS
+        queries.append("\n-- ----------------------------\n-- SECCIÓN: ARMAS (CATÁLOGO ÚNICO)\n-- ----------------------------")
+        for _, row in data_dict['weapons'].iterrows():
+            queries.append(f"INSERT INTO weapons (name, base_type_id) \n    SELECT '{escape(row['name'])}', type_id \n    FROM weapon_types WHERE type_name = '{escape(row['type_name'])}' ON CONFLICT (name) DO NOTHING;\n")
+
+# 4. INSERT STATS (Corregido para PostgreSQL)
+        queries.append("\n-- ----------------------------\n-- SECCIÓN: ESTADÍSTICAS POR JUEGO\n-- ----------------------------")
+        for _, row in data_dict['game_weapon_stats'].iterrows():
+            # Usamos JOIN explícitos para evitar el error de sintaxis en el FROM
+            query = f"""INSERT INTO game_weapon_stats (game_id, weapon_id, ammo_id, damage, weight, weapon_value, ap_cost, fire_rate, weapon_range, accuracy, magazine_capacity, strength_required)
+SELECT 
+    g.game_id, 
+    w.weapon_id, 
+    a.ammo_id, 
+    {sql_num(row['damage'])}, 
+    {sql_num(row['weight'])}, 
+    {sql_num(row['value'])}, 
+    {sql_num(row['ap_cost'])}, 
+    {sql_num(row['fire_rate'])}, 
+    {sql_num(row['range'])}, 
+    {sql_num(row['accuracy'])}, 
+    {sql_num(row['magazine_capacity'])}, 
+    {sql_num(row['strength_required'])}
+FROM games g
+CROSS JOIN weapons w
+LEFT JOIN ammo_types a ON a.ammo_name = {sql_val(row['ammo_name'])}
+WHERE g.title = {sql_val(row['game_title'])} 
+  AND w.name = {sql_val(row['weapon_name'])};\n"""
+            queries.append(query)
+
+        return queries
+
+    def to_sql_file(self, data_dict):
+        all_queries = self.create_relational_queries(data_dict)
+
+        schema_postgres = inspect.cleandoc('''
+            -- Limpieza de tablas existentes (orden inverso por llaves foráneas)
+            DROP TABLE IF EXISTS game_weapon_stats CASCADE;
+            DROP TABLE IF EXISTS weapons CASCADE;
+            DROP TABLE IF EXISTS weapon_types CASCADE;
+            DROP TABLE IF EXISTS ammo_types CASCADE;
+            DROP TABLE IF EXISTS games CASCADE;
+
+            -- Creación de Tablas
+            CREATE TABLE games (
+                game_id SERIAL PRIMARY KEY,
+                title VARCHAR(255) UNIQUE NOT NULL,
+                release_year INT,
+                studio VARCHAR(100)
+            );
+
+            CREATE TABLE ammo_types (
+                ammo_id SERIAL PRIMARY KEY,
+                ammo_name VARCHAR(100) UNIQUE NOT NULL
+            );
+
+            CREATE TABLE weapon_types (
+                type_id SERIAL PRIMARY KEY,
+                type_name VARCHAR(100) UNIQUE NOT NULL
+            );
+
+            CREATE TABLE weapons (
+                weapon_id SERIAL PRIMARY KEY,
+                name VARCHAR(255) UNIQUE NOT NULL,
+                base_type_id INT REFERENCES weapon_types(type_id) ON DELETE SET NULL
+            );
+
+            CREATE TABLE game_weapon_stats (
+                stat_id SERIAL PRIMARY KEY,
+                game_id INT REFERENCES games(game_id) ON DELETE CASCADE,
+                weapon_id INT REFERENCES weapons(weapon_id) ON DELETE CASCADE,
+                ammo_id INT REFERENCES ammo_types(ammo_id) ON DELETE SET NULL,
+                damage DECIMAL,
+                weight DECIMAL,
+                weapon_value INT,
+                ap_cost INT,
+                fire_rate DECIMAL,
+                weapon_range DECIMAL, -- Cambiado a DECIMAL por precisión
+                accuracy DECIMAL,
+                magazine_capacity INT,
+                strength_required INT
+            );
+        ''')
+
         with open(self.output_path, "w", encoding="utf-8") as f:
-            # Metadata Header
-            f.write("/*\n" + "="*50 + "\n")
-            f.write("   FALLOUT FRANCHISE WEAPONS DATABASE\n")
-            f.write(f"   Generated on: {pd.Timestamp.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-            f.write("="*50 + "\n*/\n\n")
-            
-            f.write("PRAGMA foreign_keys = ON;\n\n") # Enable FKs for SQLite compatibility
-            
-            f.write("-- 1. SCHEMAS\n")
-            f.write("-" * 20 + "\n")
-            f.write("\n".join(schemas))
-            
-            f.write("\n\n-- 2. DATA INSERTIONS\n")
-            f.write("-" * 20 + "\n")
-            f.write("\n".join(data))
-                
-        print(f"✅ Professional SQL script generated at: {self.output_path}")
+            f.write("-- Script generado para PostgreSQL\n")
+            f.write("BEGIN;\n\n")
+            f.write(schema_postgres)
+            f.write("\n\n" + "\n".join(all_queries))
+            f.write("\n\nCOMMIT;")

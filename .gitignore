@@ -1,0 +1,19 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# OS Generated files
+.DS_Store
+Thumbs.db
+
+# Project Specific Output (Optional)
+# If you want users to generate their own SQL, ignore the output folder
+output/*.sql

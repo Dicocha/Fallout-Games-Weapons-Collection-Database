@@ -1,64 +1,16 @@
 from pathlib import Path
-
 import pandas as pd
-import re
+
+from format import Format
+from maps import Maps
+
 
 class Transformer:
     def __init__(self):
         self.root_folder = Path("./archive/")
-        self.unify_map = {
-            'name': 'weapon_name',
-            'weapon': 'weapon_name',
-            'damage': 'damage',
-            'weight': 'weight',
-            'value': 'value',
-            'caps': 'value',
-            'selling price': 'value',
-            'cost': 'ap_cost',
-            'action point': 'ap_cost',
-            'ammo': 'ammo_type',
-            'ammunition': 'ammo_type',
-            'range': 'range',
-            'fire rate': 'fire_rate',
-            'rate of fire': 'fire_rate',
-            'accuracy': 'accuracy',
-            'magazine': 'magazine_capacity',
-            'capacity': 'magazine_capacity',
-            'skill': 'skill_required',
-            'strength': 'strength_required',
-            'multiplier': 'critical_chance_multiplier',
-            'special': 'special',
-            'upgrades': 'upgrades',
-            'components': 'components',
-            'modes': 'attack_modes',
-            'speed': 'fire_rate'
-        }
-
-    def to_snake_case(self, text):
-        """Strictly follows Object snake_case convention."""
-        if not text: return "Unnamed"
-        # Remove parentheses and non-alphanumeric, then underscore
-        text = re.sub(r'\(.*?\)', '', str(text)) 
-        text = re.sub(r'[^a-zA-Z0-9\s]', '', text)
-        return text.lower().strip().replace(" ", "_")
-
-    def clean_data_string(self, value):
-        if pd.isna(value):
-            return None
-
-        val_str = str(value).strip()
-
-        if val_str.lower() in ['nan', 'none', '', 'null']:
-            return None
-
-        val_str = val_str.encode("ascii", "ignore").decode("ascii")
-
-        # Extrae número si existe
-        match = re.search(r'[-+]?\d*\.?\d+', val_str)
-        if match:
-            return match.group()
-
-        return val_str
+        self.root_folder.parent.mkdir(parents=True, exist_ok=True)
+        self.maps = Maps()
+        self.format = Format()
 
     def clean_and_unify(self, df):
             new_df = df.copy()
@@ -74,13 +26,13 @@ class Transformer:
                 target_name = None
                 col_lower = col.lower()
                 
-                for key, standard in self.unify_map.items():
-                    if key in col_lower: # Substring match
+                for key, standard in self.maps.stats_map.items(): # Usando la instancia de Maps
+                    if key in col_lower:
                         target_name = standard
                         break
                 
                 # If no match in dict, just snake_case the original name
-                mapping[col] = target_name if target_name else self.to_snake_case(col)
+                mapping[col] = target_name if target_name else self.format.to_snake_case(col)
 
             new_df = new_df.rename(columns=mapping)
 
@@ -92,32 +44,74 @@ class Transformer:
             return new_df
 
     def extract_and_transform(self):
-        tables = {}
-        for folder in sorted(self.root_folder.iterdir()):
-            if folder.is_dir():
-                game_table_name = self.to_snake_case(folder.name.replace("_dataset", ""))
-                weapon_dfs = []
+            # Inicializamos listas para acumular datos
+            games_list = self.maps.get_game_map()
+            ammo_list = []
+            types_list = []
+            weapons_list = []
+            stats_list = []
 
-                for file_path in folder.glob("*.csv"):
-                    df = pd.read_csv(file_path, encoding="ISO-8859-1")
-                    df = self.clean_and_unify(df)
-                    
-                    # Add your specific string-based metadata
-                    df['game_name'] = game_table_name
-                    df['weapon_type'] = file_path.stem.replace("_", " ").title()
-                    
-                    # Clean the data cells
-                    for col in df.columns:
-                        if col not in ['game_name', 'weapon_type']:
-                            # Correct: Pass the function reference, NOT the function call with ()
-                            df[col] = df[col].apply(self.clean_data_string)
-                    
-                    weapon_dfs.append(df)
+            for folder in sorted(self.root_folder.iterdir()):
+                if folder.is_dir():
+                    # Obtenemos el título del juego del nombre de la carpeta
+                    game_title = folder.name.replace("_dataset", "").replace("_", " ").title()
+                    game_title = "Fallout New Vegas" if game_title == "Fallout Newvegas" else game_title # Corrección específica para New Vegas
 
-                if weapon_dfs:
-                    final_df = pd.concat(weapon_dfs, ignore_index=True)
-                    # Force 'id' to be the first column
-                    final_df.index.name = 'id'
-                    tables[game_table_name] = final_df.reset_index()
+                    for file_path in folder.glob("*.csv"):
+                        df = pd.read_csv(file_path, encoding="ISO-8859-1")
+                        
+                        # 1. Unificamos columnas (ej: 'pistol_name' -> 'weapon_name')
+                        df = self.clean_and_unify(df)
+                        
+                        # 2. Identificar el tipo de arma por el nombre del archivo
+                        w_type = file_path.stem.replace("_", " ").title()
+                        w_type = self.maps.get_unified_type(w_type)
+                        types_list.append({'type_name': w_type})
 
-        return tables
+                        for _, row in df.iterrows():
+                            # 3. Extraer y Limpiar Nombre del Arma
+                            w_name = row.get('weapon_name') # Usamos el nombre unificado
+                            
+                            # Limpieza profunda (caracteres raros, espacios, etc.)
+                            if pd.notna(w_name):
+                                w_name = self.format.deep_clean_text(str(w_name))
+                            
+                            # Saltar si el nombre es nulo o quedó vacío tras la limpieza
+                            if not w_name or str(w_name).lower() == 'nan':
+                                continue
+
+                            # 4. Extraer y Limpiar Munición
+                            raw_ammo = row.get('ammo_type')
+                            # Aplicamos unificación (ej: "MFC" -> "Microfusion Cell (MFC)")
+                            ammo = self.maps.get_unified_ammo(raw_ammo)
+                            
+                            if pd.notna(ammo):
+                                ammo_list.append({'ammo_name': str(ammo)})
+
+                            # 5. Guardar relación Arma-Tipo
+                            weapons_list.append({'name': w_name, 'type_name': w_type})
+                            
+                            # 6. Captura de métricas (Stats)
+                            stats_list.append({
+                                'game_title': game_title,
+                                'weapon_name': w_name,
+                                'ammo_name': ammo,
+                                'damage': self.format.clean_data(row.get('damage'), 'damage'),
+                                'weight': self.format.clean_data(row.get('weight'), 'weight'),
+                                'value': self.format.clean_data(row.get('value'), 'value'),
+                                'ap_cost': self.format.clean_data(row.get('ap_cost'), 'ap_cost'),
+                                'fire_rate': self.format.clean_data(row.get('fire_rate'), 'fire_rate'),
+                                'range': self.format.clean_data(row.get('range'), 'range'),
+                                'accuracy': self.format.clean_data(row.get('accuracy'), 'accuracy'),
+                                'magazine_capacity': self.format.clean_data(row.get('magazine_capacity'), 'magazine_capacity'),
+                                'strength_required': self.format.clean_data(row.get('strength_required'), 'strength_required')
+                            })
+
+            # Retornamos el diccionario final para el Loader
+            return {
+                'games': pd.DataFrame(games_list).drop_duplicates(),
+                'ammo_types': pd.DataFrame(ammo_list).drop_duplicates(),
+                'weapon_types': pd.DataFrame(types_list).drop_duplicates(),
+                'weapons': pd.DataFrame(weapons_list).drop_duplicates(subset=['name']),
+                'game_weapon_stats': pd.DataFrame(stats_list),
+            }
