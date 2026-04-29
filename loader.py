@@ -7,6 +7,11 @@ class Loader:
         self.output_path = Path(output_path)
         self.output_path.parent.mkdir(parents=True, exist_ok=True)
 
+    def to_txt_file(self, pdebug):
+        with open("./output/Debug.txt", "w", encoding="utf-8") as f:
+            for col in pdebug:
+                f.write(f"{col}, ")
+
     def create_relational_queries(self, data_dict):
         queries = []
 
@@ -32,13 +37,19 @@ class Loader:
 
         # 2. INSERT TYPES (Weapon & Ammo)
         queries.append("\n-- ----------------------------\n-- SECCIÓN: CATÁLOGOS\n-- ----------------------------")
+
+        # Loader
+        ammo_df = data_dict.get('ammo_types')
+        if ammo_df is not None and not ammo_df.empty:
+            unique_ammo = ammo_df['ammo_name']
+            ammo_rows = [f"('{escape(str(a))}')" for a in unique_ammo if pd.notna(a)]
+            
+            if ammo_rows:
+                queries.append(f"INSERT INTO ammo_types (ammo_name) VALUES \n    {',\n    '.join(ammo_rows)}\nON CONFLICT (ammo_name) DO NOTHING;\n")
+
         type_rows = [f"('{escape(t)}')" for t in data_dict['weapon_types']['type_name']]
         if type_rows:
             queries.append(f"INSERT INTO weapon_types (type_name) VALUES \n    {',\n    '.join(type_rows)}\nON CONFLICT (type_name) DO NOTHING;\n")
-
-        ammo_rows = [f"('{escape(a)}')" for a in data_dict['ammo_types']['ammo_name'] if pd.notna(a)]
-        if ammo_rows:
-            queries.append(f"INSERT INTO ammo_types (ammo_name) VALUES \n    {',\n    '.join(ammo_rows)}\nON CONFLICT (ammo_name) DO NOTHING;")
 
         # 3. INSERT WEAPONS
         queries.append("\n-- ----------------------------\n-- SECCIÓN: ARMAS (CATÁLOGO ÚNICO)\n-- ----------------------------")
@@ -49,20 +60,19 @@ class Loader:
         queries.append("\n-- ----------------------------\n-- SECCIÓN: ESTADÍSTICAS POR JUEGO\n-- ----------------------------")
         for _, row in data_dict['game_weapon_stats'].iterrows():
             # Usamos JOIN explícitos para evitar el error de sintaxis en el FROM
-            query = f"""INSERT INTO game_weapon_stats (game_id, weapon_id, ammo_id, damage, weight, weapon_value, ap_cost, fire_rate, weapon_range, accuracy, magazine_capacity, strength_required)
+            query = f"""INSERT INTO game_weapon_stats (game_id, weapon_id, ammo_id, damage, weight, weapon_value, ap_cost, fire_rate, weapon_range, accuracy, magazine_capacity)
 SELECT 
     g.game_id, 
     w.weapon_id, 
     a.ammo_id, 
     {sql_num(row['damage'])}, 
     {sql_num(row['weight'])}, 
-    {sql_num(row['value'])}, 
+    {sql_num(row['weapon_value'])}, 
     {sql_num(row['ap_cost'])}, 
     {sql_num(row['fire_rate'])}, 
-    {sql_num(row['range'])}, 
+    {sql_num(row['weapon_range'])}, 
     {sql_num(row['accuracy'])}, 
-    {sql_num(row['magazine_capacity'])}, 
-    {sql_num(row['strength_required'])}
+    {sql_num(row['magazine_capacity'])}
 FROM games g
 CROSS JOIN weapons w
 LEFT JOIN ammo_types a ON a.ammo_name = {sql_val(row['ammo_name'])}
@@ -117,10 +127,9 @@ WHERE g.title = {sql_val(row['game_title'])}
                 weapon_value INT,
                 ap_cost INT,
                 fire_rate DECIMAL,
-                weapon_range DECIMAL, -- Cambiado a DECIMAL por precisión
+                weapon_range DECIMAL,
                 accuracy DECIMAL,
-                magazine_capacity INT,
-                strength_required INT
+                magazine_capacity INT
             );
         ''')
 

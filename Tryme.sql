@@ -77,9 +77,32 @@ ORDER BY s.damage DESC;
 -- Si quieres ver si alguna limpieza falló, ejecuta esta query para encontrar estadísticas que quedaron "huérfanas" de munición o nombre:
 
 -- Buscar estadísticas que no tienen munición asignada (posible error en el mapa)
-SELECT weapon_name, game_title, ammo_name 
-FROM game_weapon_stats 
-WHERE ammo_id IS NULL AND ammo_name IS NOT NULL;
-SELECT weapon_name, game_title, ammo_name 
-FROM game_weapon_stats 
-WHERE ammo_id IS NULL AND ammo_name IS NOT NULL;
+SELECT 
+    g.title, 
+    w.name, 
+    ats.stat_id,
+    ats.damage, 
+    ats.weight, 
+    ats.weapon_value, 
+    ats.ap_cost, 
+    ats.fire_rate, 
+    ats.weapon_range, 
+    ats.accuracy, 
+    ats.magazine_capacity, 
+    ats.strength_required
+FROM 
+    game_weapon_stats ats
+JOIN 
+    games g ON ats.game_id = g.game_id
+JOIN 
+    weapons w ON ats.weapon_id = w.weapon_id
+WHERE 
+    ats.damage IS NULL 
+    OR ats.weight IS NULL 
+    OR ats.weapon_value IS NULL 
+    OR ats.ap_cost IS NULL 
+    OR ats.fire_rate IS NULL 
+    OR ats.weapon_range IS NULL 
+    OR ats.accuracy IS NULL 
+    OR ats.magazine_capacity IS NULL 
+    OR ats.strength_required IS NULL;

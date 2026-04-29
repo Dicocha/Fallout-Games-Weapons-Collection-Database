@@ -3,11 +3,7 @@ import pandas as pd
 class Maps:
     def __init__(self):
 
-        self.game_map = [{
-            "title": "Fallout 1",
-            "release_year": 1997,
-            "studio": "Interplay"
-        },
+        self.game_map = [
         {
             "title": "Fallout 2",
             "release_year": 1998,
@@ -35,180 +31,188 @@ class Maps:
         }]
 
         self.weapon_type_map = {
-            'Pistols': 'Pistols',
-            'Energy Pistols': 'Pistols',
-            'Laser Pistols': 'Pistols',
-            'Plasma Pistols': 'Pistols',
-            
-            'Rifles': 'Rifles',
-            'Energy Rifles': 'Rifles',
-            'Laser Rifles': 'Rifles',
-            'Plasma Rifles': 'Rifles',
-            'Pipe Weapons': 'Rifles', # Generalmente se clasifican aquí
-            
-            'Sub Machine Guns': 'Submachine Guns',
-            'Submachine Guns': 'Submachine Guns',
-            
-            'Shotguns': 'Shotguns',
-            
-            'Big Guns': 'Heavy Weapons',
-            'Heavy Weapons': 'Heavy Weapons',
-            'Heavy Guns': 'Heavy Weapons',
-            'Large Weapons': 'Heavy Weapons',
-            
-            'Melee Weapons': 'Melee Weapons',
-            'One Handed Melee': 'Melee Weapons',
-            'Two Handed Melee': 'Melee Weapons',
-            'Bladed Melee': 'Melee Weapons',
-            'Blunt Melee': 'Melee Weapons',
-            
-            'Unarmed': 'Unarmed',
-            'Unarmed Weapons': 'Unarmed',
-            
-            'Explosives': 'Explosives',
-            'Thrown Explosives': 'Explosives',
-            'Placed Explosives': 'Explosives',
-            'Projectile Explosives': 'Explosives',
-            
-            'Cut Content': 'Non-Playable / Cut Content',
-            'Unused Weapons': 'Non-Playable / Cut Content',
-            'Npc Weapons': 'Non-Playable / Cut Content'
+            # --- PISTOLS ---
+            'Pistols': 'Pistol',
+            'Energy pistol name': 'Energy Pistol',
+            'Laser Weapons': 'Energy Pistol',
+            'Plasma Weapons': 'Energy Pistol',
+            'Alien Blaster': 'Energy Pistol',
+
+            # --- RIFLES ---
+            'Rifles': 'Rifle',
+            'Energy rifle name': 'Energy Rifle',
+            'Laser rifle name': 'Energy Rifle',
+            'Plasma rifle name': 'Energy Rifle',
+            'Bows': 'Bows',
+
+            # --- AUTOMÁTICAS / SMG ---
+            'Submachine Guns': 'Submachine gun',
+            'Submachine gun name': 'Submachine gun',
+            'Smgs': 'Submachine gun',
+
+            # --- ESCOPETAS ---
+            'Shotguns': 'Shotgun',
+            'Shotgun name': 'Shotgun',
+
+            # --- PESADAS (HEAVY) ---
+            'Heavy Weapons': 'Heavy Weapon',
+            'Big Guns': 'Heavy Weapon',
+            'Energy Heavy Weapons': 'Energy Heavy Weapon',
+            'Area Of Effect': 'Explosive Heavy',
+            'Direct Fire': 'Heavy Weapon',
+            'Explosive Guns': 'Explosive Heavy',
+
+            # --- MELEE / UNARMED ---
+            'Bladed melee weapon name': 'Melee (Bladed)',
+            'Blunt melee weapon name': 'Melee (Blunt)',
+            'Fist melee weapon name': 'Unarmed',
+            'Unarmed weapon name': 'Unarmed',
+            'Melee Weapons': 'Melee',
+            'One Handd Melee': 'Melee (1H)',
+            'Two Handd Melee': 'Melee (2H)',
+
+            # --- EXPLOSIVOS Y OTROS ---
+            'Thrown Weapons': 'Explosive (Thrown)',
+            'Explosives': 'Explosive',
+            'Placed Traps': 'Trap',
+            'Gamma Weapons': 'Radiation Weapon',
+            'Non-Playable / Cut Content': 'Non-Playable / Cut Content',
         }
 
         self.ammo_type_map = {
-            # --- MICROFUSION / ENERGY CELLS ---
-            "Microfusion Cell": "Microfusion Cell (MFC)",
-            "Micro Fusion Cell": "Microfusion Cell (MFC)",
-            "MFC": "Microfusion Cell (MFC)",
-            "Small Energy Cell": "Small Energy Cell (SEC)",
-            "SEC": "Small Energy Cell (SEC)",
-            "Energy cell": "Small Energy Cell (SEC)",
-            "Fusion cell": "Fusion Cell (FC)",
-            "Worn fusion cell": "Fusion Cell (FC)",
-            "Plasma cartridge": "Plasma Cartridge (PC)",
-            "Plasma Core": "Plasma Core",
-            "Fusion Core": "Fusion Core",
-            "Electron Charge Pack": "Electron Charge Pack (ECP)",
-            "ECP": "Electron Charge Pack (ECP)",
-            "MF breeder": "Microfusion Breeder (MFB)",
-            "Microfusion breeder": "Microfusion Breeder (MFB)",
-            "Alien Power Cell": "Alien Power Cell (APC)",
-            "Alien PC": "Alien Power Cell (APC)",
-            "Alien power module": "Alien Power Cell (APC)",
+            # --- ENERGÍA (MFC, SEC, FUSION) ---
+            'Micro Fusion Cell': 'Microfusion Cell (MFC)',
+            'Microfusion Cell': 'Microfusion Cell (MFC)',
+            'MFC': 'Microfusion Cell (MFC)',
+            'Small Energy Cell': 'Small Energy Cell (SEC)',
+            'SEC': 'Small Energy Cell (SEC)',
+            'Fusion cell': 'Fusion Cell',
+            'Fusion core': 'Fusion Core',
+            'Plasma cartridge': 'Plasma Cartridge',
+            'Plasma Core': 'Plasma Core',
+            'Alien blaster round': 'Alien Power Cell',
+            'Alien Power Cell': 'Alien Power Cell',
+            'Alien PC': 'Alien Power Cell',
+            'Gamma round': 'Gamma Round',
+            'MF breeder': 'Microfusion Breeder',
 
-            # --- BALÍSTICA (CON UNIFICACIÓN DE CALIBRES) ---
-            "10mm": "10mm Round",
-            "9mm": "9mm Round",
-            "5.56": "5.56mm Round",
-            "5mm": "5mm Round",
-            "7.62": "7.62mm Round",
-            ".308": "0.308 Round",
-            "0.308": "0.308 Round",
-            ".38": "0.38 Round",
-            "0.38": "0.38 Round",
-            ".44": "0.44 Magnum Round",
-            "0.44": "0.44 Magnum Round",
-            ".45": "0.45 Auto Round",
-            "0.45": "0.45 Auto Round",
-            ".357": "0.357 Magnum Round",
-            ".50 caliber": "0.50 Caliber Round",
-            ".50 MG": "0.50 Machine Gun Round (.50 MG)",
-            "12.7mm": "12.7mm Round",
-            ".22LR": "0.22 Long Rifle Round (.22LR)",
-            ".223": "0.223 Round",
-            "14mm": "14mm Round",
-            "2mm EC": "2mm Electromagnetic Cartridge (2mm EC)",
-            "2mm electromagnetic": "2mm Electromagnetic Cartridge (2mm EC)",
+            # --- BALÍSTICA (Calibres con limpieza de ruido) ---
+            '5.56mm': '5.56mm Round',
+            '5.56': '5.56mm Round',
+            '5mm': '5mm Round',
+            '.308': '.308 Round',
+            '0.308': '.308 Round',
+            '.38': '.38 Round',
+            '0.38': '.38 Round',
+            '.44': '.44 Magnum Round',
+            '0.44': '.44 Magnum Round',
+            '.45': '.45 Round',
+            '0.45': '.45 Round',
+            '.50': '.50 Caliber Round',
+            '10mm': '10mm Round',
+            '9mm': '9mm Round',
+            '7.62mm': '7.62mm Round',
+            '7.62': '7.62mm Round',
+            '12.7mm': '12.7mm Round',
+            '.357': '.357 Magnum',
+            '.223': '.223 Round',
+            '.22LR': '.22 LR',
+            '4.7mm caseless': '4.7mm Caseless',
+            '2mm EC': '2mm Electromagnetic Cartridge',
+            '2mm electromagnetic': '2mm Electromagnetic Cartridge',
 
             # --- ESCOPETAS Y PESADAS ---
-            "12 gauge": "12 Gauge Shell",
-            "12 ga": "12 Gauge Shell",
-            "20 gauge": "20 Gauge Shell",
-            "20 ga": "20 Gauge Shell",
-            "Flamethrower fuel": "Flamethrower Fuel",
-            "Flamer fuel": "Flamethrower Fuel",
-            "Fuel": "Flamethrower Fuel",
-            "Missile": "Missile",
-            "Mini nuke": "Mini Nuke",
-            "Rocket": "Rocket",
-            "40mm grenade": "40mm Grenade Round",
-            "25mm grenade": "25mm Grenade Round",
+            '12 gauge': '12 Gauge Shell',
+            '20 gauge': '20 Gauge Shell',
+            'Flamer fuel': 'Flamethrower Fuel',
+            'Flamethrower fuel': 'Flamethrower Fuel',
+            'Fuel': 'Flamethrower Fuel',
+            'Mini Nuke': 'Mini Nuke',
+            'Missile': 'Missile',
+            'Rocket': 'Rocket',
+            '40mm grenade': '40mm Grenade',
 
-            # --- ESPECIALES / ARCHIVO ---
-            "Railway spike": "Railway Spike",
-            "Harpoon": "Harpoon",
-            "Gamma round": "Gamma Round",
-            "Alien blaster round": "Alien Blaster Round",
-            "Syringer ammo": "Syringer Ammo",
-            "Dart": "Dart",
-            "BB": "BB Pellet",
-            "Nail": "Nails",
-            "Flare": "Flare",
-            "Cannonball": "Cannonball",
-            "Cryo cell": "Cryo Cell",
-            
-            # --- FILTROS DE BASURA (Retornan None para ser ignorados) ---
-            "None": None,
-            "nan": None,
-            "-": None,
-            "?": None,
-            "Junk": "Junk / Scrap",
-            "Most junk": "Junk / Scrap",
-            "Squirt of water": "Water / Liquid"
+            # --- ESPECIALES ---
+            'Railway spike': 'Railway Spike',
+            'Harpoon': 'Harpoon',
+            'Crossbow bolt': 'Crossbow Bolt',
+            'Arrow': 'Arrow',
+            'Syringer ammo': 'Syringer Ammo',
+            'Dart': 'Dart',
+            'Cannonball': 'Cannonball',
+            'BB': 'BB Pellet',
+            'Nails': 'Nails',
+
+            # --- BASURA / FILTROS ---
+            'Junk': 'Junk',
+            'None': None,
+            'nan': None,
+            '-': None,
+            '?': None
         }
 
         self.stats_map = {
-            # NOMBRES DE ARMA (Todas estas variaciones -> weapon_name)
-            'weapon_name': 'weapon_name',
+            # IDENTIFICACIÓN DE ARMA (Nombres largos primero)
+            'bladed melee weapon name': 'weapon_name',
+            'blunt melee weapon name': 'weapon_name',
+            'fist melee weapon name': 'weapon_name',
+            'thrown explosive weapon name': 'weapon_name',
+            'placed explosive weapon name': 'weapon_name',
+            'projectile explosive weapon name': 'weapon_name',
+            'thrown melee weapon name': 'weapon_name',
+            'area of effect big gun name': 'weapon_name',
+            'direct fire big gun name': 'weapon_name',
+            'energy pistol name': 'weapon_name',
+            'energy rifle name': 'weapon_name',
+            'laser weapon name': 'weapon_name',
+            'plasma weapon name': 'weapon_name',
+            'heavy weapon name': 'weapon_name',
+            'submachine gun name': 'weapon_name',
+            'placed trap name': 'weapon_name',
+            'unarmed weapon name': 'weapon_name',
+            'shotgun name': 'weapon_name',
+            'rifle name': 'weapon_name',
             'pistol_name': 'weapon_name',
-            'rifle_name': 'weapon_name',
-            'shotgun_name': 'weapon_name',
-            'submachine_gun_name': 'weapon_name',
-            'heavy_weapon_name': 'weapon_name',
-            'energy_pistol_name': 'weapon_name',
-            'energy_rifle_name': 'weapon_name',
-            'laser_weapon_name': 'weapon_name',
-            'plasma_weapon_name': 'weapon_name',
-            'big_gun_name': 'weapon_name', # Detectará 'area_of_effect_big_gun_name' por substring
-            'melee_weapon_name': 'weapon_name', # Detectará bladed, blunt, etc.
-            'unarmed_weapon_name': 'weapon_name',
-            'thrown_explosive': 'weapon_name',
-            'placed_explosive': 'weapon_name',
-            'placed_trap_name': 'weapon_name',
+            'weapon name': 'weapon_name',
             'weapon': 'weapon_name',
             'name': 'weapon_name',
 
-            # ESTADÍSTICAS BÁSICAS
+            # MUNICIÓN
+            'ammunition used': 'ammo_name',
+            'ammo': 'ammo_name',
+
+            # DAÑO Y ESTADÍSTICAS (Sincronizado con game_weapon_stats)
+            'damage per shot': 'damage',
+            'damage per attack': 'damage',
             'damage': 'damage',
+            
             'weight': 'weight',
-            'caps': 'value',
-            'selling_caps': 'value',
-            'value': 'value',
-            'ap_cost': 'ap_cost',
-            'action_point': 'ap_cost',
-            'ammo_type': 'ammo_type',
-            'ammunition': 'ammo_type',
-            'ammo': 'ammo_type',
+            'weapon weight': 'weight',
             
-            # MÁQUINAS Y ESTADO
-            'fire_rate': 'fire_rate',
-            'attacks_per_second': 'fire_rate',
-            'magazine_capacity': 'magazine_capacity',
-            'capacity': 'magazine_capacity',
+            'weapon value in caps': 'weapon_value',
+            'selling price': 'weapon_value',
+            'value': 'weapon_value',
+            'caps': 'weapon_value',
+            
+            'action point cost': 'ap_cost',
+            'action points': 'ap_cost',
+            
+            'attacks per second': 'fire_rate',
+            'rate of fire': 'fire_rate',
+            'fire rate': 'fire_rate',
+            'speed': 'fire_rate',
+            
+            'weapon spread': 'accuracy',
             'accuracy': 'accuracy',
-            'weapon_spread': 'accuracy', # El spread es lo opuesto a la precisión, pero se mapea aquí
-            'range': 'range',
-            'scope': 'range',
             
-            # REQUISITOS Y OTROS
-            'strength_required': 'strength_required',
-            'skill_required': 'skill_required',
-            'critical_chance_multiplier': 'critical_chance_multiplier',
-            'durability': 'durability', # Capturará 'weapon_durability_in_shots...'
-            'components': 'components',
-            'upgrades': 'upgrades',
-            'special': 'special',
-            'attack_modes': 'attack_modes'
+            'range': 'weapon_range',
+            
+            'magazine capacity': 'magazine_capacity',
+            
+            # REQUISITOS
+            'strength required': 'strength_required',
+            'min strength': 'strength_required',
+            'skill required': 'skill_required'
         }
 
     def get_unified_type(self, raw_type):

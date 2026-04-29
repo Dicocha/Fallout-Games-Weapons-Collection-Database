@@ -28,10 +28,27 @@ class Format:
         text = re.sub(r'\(.*?\)', '', str(text)) 
         text = re.sub(r'[^a-zA-Z0-9\s]', '', text)
         return text.lower().strip().replace(" ", "_")
+    
+    def clean_ammo_string(self, ammo_str):
+        if not ammo_str or pd.isna(ammo_str):
+            return None
+        
+        # 1. Eliminar ruido de codificación (â€¢, Â·, etc)
+        # Reemplazamos cualquier cosa que no sea alfanumérica, espacios, puntos o guiones
+        s = str(ammo_str).encode('ascii', 'ignore').decode('ascii')
+        
+        # 2. Si hay múltiples (separadas por puntos, comas o barras), tomar la primera
+        # Esto soluciona casos como ".45 Round · .38 round"
+        s = s.split('·')[0].split('•')[0].split('/')[0].split(',')[0]
+        
+        # 3. Limpiar términos molestos para el matcheo
+        s = s.replace('(Ultracite)', '').replace('Ultracite', '').strip()
+        
+        return s
 
     def clean_data(self, value, col_name):
         if pd.isna(value): return None
-        val_str = str(value).strip()
+        val_str = str(value).strip().replace('$', '').replace(' hexes', '')
 
         if val_str.lower() in ['n/a', 'none', 'null', 'nan', 'unknown', 'varies', '?']:
             return None

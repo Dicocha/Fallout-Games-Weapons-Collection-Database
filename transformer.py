@@ -12,6 +12,45 @@ class Transformer:
         self.maps = Maps()
         self.format = Format()
 
+    def get_header(self):
+        headers = []
+        for root in self.root_folder.iterdir():
+            if root.is_dir():
+                for file_path in root.glob("*.csv"):
+                    df = pd.read_csv(file_path, encoding="ISO-8859-1")
+                    headers.extend(df.columns.tolist())
+        return headers
+    
+    def clean_and_unify(self, df):
+        new_df = df.copy()
+        
+        # 1. Drop junk  
+        junk = ['Unnamed', 'Form ID', 'CODE']
+        cols_to_drop = [c for c in new_df.columns if any(p.lower() in c.lower() for p in junk)]
+        new_df = new_df.drop(columns=cols_to_drop, errors='ignore')
+    
+        # 2. Map Columns mejorado
+        mapping = {}
+        for col in new_df.columns:
+            # Limpieza agresiva del header del CSV para la comparación
+            col_clean = col.lower().strip().replace(".", "").replace("_", " ")
+            target_name = None
+            
+            # Búsqueda por substring inteligente
+            for key, standard in self.maps.stats_map.items():
+                if key in col_clean:
+                    target_name = standard
+                    break
+            
+            mapping[col] = target_name if target_name else self.format.to_snake_case(col)
+
+        new_df = new_df.rename(columns=mapping)
+        
+        # 3. Colapsar duplicados (Importante si el CSV tiene 'Ammo' y 'Ammo type')
+        new_df = new_df.loc[:, ~new_df.columns.duplicated()]
+        
+        return new_df
+
     def clean_and_unify(self, df):
             new_df = df.copy()
 
@@ -51,6 +90,8 @@ class Transformer:
             weapons_list = []
             stats_list = []
 
+            debug = set()  # Debug: Para rastrear municiones reconocidas
+
             for folder in sorted(self.root_folder.iterdir()):
                 if folder.is_dir():
                     # Obtenemos el título del juego del nombre de la carpeta
@@ -81,11 +122,13 @@ class Transformer:
                                 continue
 
                             # 4. Extraer y Limpiar Munición
-                            raw_ammo = row.get('ammo_type')
-                            # Aplicamos unificación (ej: "MFC" -> "Microfusion Cell (MFC)")
-                            ammo = self.maps.get_unified_ammo(raw_ammo)
-                            
-                            if pd.notna(ammo):
+                            raw_ammo = row.get('ammo_name')
+                            # NUEVO: Limpieza de caracteres y splits
+                            clean_raw_ammo = self.format.clean_ammo_string(raw_ammo) 
+                            # Ahora sí, al mapa
+                            ammo = self.maps.get_unified_ammo(clean_raw_ammo)
+
+                            if pd.notna(ammo) and str(ammo).strip() != '':
                                 ammo_list.append({'ammo_name': str(ammo)})
 
                             # 5. Guardar relación Arma-Tipo
@@ -98,17 +141,23 @@ class Transformer:
                                 'ammo_name': ammo,
                                 'damage': self.format.clean_data(row.get('damage'), 'damage'),
                                 'weight': self.format.clean_data(row.get('weight'), 'weight'),
-                                'value': self.format.clean_data(row.get('value'), 'value'),
+                                'weapon_value': self.format.clean_data(row.get('weapon_value'), 'weapon_value'),
                                 'ap_cost': self.format.clean_data(row.get('ap_cost'), 'ap_cost'),
                                 'fire_rate': self.format.clean_data(row.get('fire_rate'), 'fire_rate'),
-                                'range': self.format.clean_data(row.get('range'), 'range'),
+                                'weapon_range': self.format.clean_data(row.get('weapon_range'), 'weapon_range'),
                                 'accuracy': self.format.clean_data(row.get('accuracy'), 'accuracy'),
-                                'magazine_capacity': self.format.clean_data(row.get('magazine_capacity'), 'magazine_capacity'),
-                                'strength_required': self.format.clean_data(row.get('strength_required'), 'strength_required')
+                                'magazine_capacity': self.format.clean_data(row.get('magazine_capacity'), 'magazine_capacity')
                             })
 
             # Retornamos el diccionario final para el Loader
+            '''
+            debug_list = set([ammo['ammo_name'] for ammo in ammo_list])  # Debug: Imprime municiones reconocidas
+            print(f"Municiones reconocidas: {debug_list}")
+            print(f"Total de armas procesadas: {len(debug_list)}")
+            '''
+
             return {
+                'debug': debug,
                 'games': pd.DataFrame(games_list).drop_duplicates(),
                 'ammo_types': pd.DataFrame(ammo_list).drop_duplicates(),
                 'weapon_types': pd.DataFrame(types_list).drop_duplicates(),

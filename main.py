@@ -22,11 +22,12 @@ def main():
 
     print("🛠️ Transformando y Normalizando datos...")
     data_dict = transformer.extract_and_transform()
+    #data_dict = transformer.get_header()
 
     # 3. Carga
     print("💾 Generando script SQL Relacional...")
+    #loader.to_txt_file(data_dict)  # Guarda el debug en un txt para referencia
     loader.to_sql_file(data_dict)
-    #loader.view_data(data_dict) # Descomenta para ver los DataFrames limpios en un txt
     
     print("\n✅ Proceso completado con éxito.")
     print(f"📍 Tu base de datos está lista en: {loader.output_path}")
