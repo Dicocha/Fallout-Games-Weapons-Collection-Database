@@ -1,0 +1,166 @@
+﻿game_title,weapon_name,,accuracy,ammo_name,aoe_size,ap_cost,area_of_effect,caps_value,damage,fire_rate,form_id,magazine_capacity,special_effect,weapon_range,weapon_type,weight
+Fallout 4,Alien shock baton,0,,,,0.37,,,11.0,,,,FEXXX84F,,blunt_melee,
+Fallout 4,Baseball bat,1,,,,35.0,,8.33,16.0,,,,3,,blunt_melee,25.0
+Fallout 4,2076 World Series baseball bat,2,,,,35.0,,325.0,16.0,,00226438,,6% chance to send targets flying.,,blunt_melee,3.0
+Fallout 4,Cito's Shiny Slugger,3,,,,0.89,,28.3,31.0,,,,7.5,,blunt_melee,175.0
+Fallout 4,Fencebuster,4,,,,0.46,,41.7,16.0,,,,3,,blunt_melee,125.0
+Fallout 4,Baton,5,,,,30.0,,7.5,11.0,,,,2,,blunt_melee,15.0
+Fallout 4,Board,6,,,,33.0,,6.67,14.0,,,,3,,blunt_melee,20.0
+Fallout 4,Bladed board,7,,,,33.0,,6.67,102.0,,,,4.5,,blunt_melee,30.0
+Fallout 4,Commie Whacker,8,,,,25.0,,12.5,10.0,,,,2,,blunt_melee,25.0
+Fallout 4,Lead pipe,9,,,,30.0,,5.0,11.0,,,,3,,blunt_melee,15.0
+Fallout 4,Pipe wrench,10,,,,35.0,,15.0,13.0,,,,2,,blunt_melee,30.0
+Fallout 4,Big Jim,11,,,,35.0,,150.0,13.0,,0023E5EC,,20% to cripple target's leg.,,blunt_melee,2.0
+Fallout 4,Pole hook,12,,,,0.75,,9582.0,30.0,,,,52,,blunt_melee,7.4
+Fallout 4,Bloodletter,13,,,,0.75,,7.4,30.0,,,,7,,blunt_melee,52.0
+Fallout 4,The Fish Catcher,14,,,,1.25,,44.6,30.0,,,,7,,blunt_melee,312.0
+Fallout 4,Pool cue,15,,,,30.0,,10.0,13.0,,,,1,,blunt_melee,10.0
+Fallout 4,Sharp pool cue,16,,,,30.0,,10.83,102.0,,,,1.2,,blunt_melee,13.0
+Fallout 4,Rolling pin,17,,,,25.0,,10.0,11.0,,,,1,,blunt_melee,10.0
+Fallout 4,Sharp aluminum rolling pin,18,,,,25.0,,16.0,102.0,,,,1,,blunt_melee,16.0
+Fallout 4,Sledgehammer,19,,,,40.0,,3.33,23.0,,,,12,,blunt_melee,40.0
+Fallout 4,Super sledge,20,,,,45.0,,9.0,40.0,,,,20,,blunt_melee,180.0
+Fallout 4,Stunning super sledge,21,,,,45.0,,540.0,40.0,,,,25% chance to paralyze.,,blunt_melee,20.0
+Fallout 4,Atom's Judgement,22,,,,0.89,,,40.0,,,,20,,blunt_melee,3.0
+Fallout 4,Swatter,23,,,,35.0,,10.0,18.0,,,,3,,blunt_melee,30.0
+Fallout 4,Bladed Swatter,24,,,,35.0,,9.33,102.0,,,,4.5,,blunt_melee,42.0
+Fallout 4,Rockville Slugger,25,,,,21.0,,133.0,22.0,,001F2674,,40% less AP cost in VATS.,,blunt_melee,3.5
+Fallout 4,Tire iron,26,,,,25.0,,12.5,12.0,,,,2,,blunt_melee,25.0
+Fallout 4,Bladed tire iron,27,,,,25.0,,12.33,102.0,,,,3,,blunt_melee,37.0
+Fallout 4,Walking cane,28,,,,20.0,,5.0,10.0,,,,2,,blunt_melee,10.0
+Fallout 4,Artillery smoke grenade,0,,,,,0.5,0.0,1.0,,,,,,fraction_explosives,0.0
+Fallout 4,Institute beacon,1,,,,,0.5,0.0,1.0,,,,,,fraction_explosives,0.0
+Fallout 4,Synth relay grenade,2,,,,,0.5,100.0,1.0,,,,,,fraction_explosives,50.0
+Fallout 4,Vertibird signal grenade,3,,,,,0.5,20.0,1.0,,,,,,fraction_explosives,10.0
+Fallout 4,Gamma gun,0,69.0,156.0,,,,,121.0,66.0,,52.0,3.0,119.0,gamma_weapons,0.0
+Fallout 4,Lorenzo's Artifact gun,1,69.0,4.5,,,,2266.0,38.5,66.0,,753.0,8.0,203.0,gamma_weapons,167.3
+Fallout 4,Zeta gun,2,69.0,156.0,,,,,62.7,66.0,,50.0,3.1,119.0,gamma_weapons,2266.0
+Fallout 4,Fat Man,0,63.0,30.7,,7.8,,0.0,89.43,1.0,,512.0,1,117.0,heavy_weapons,16.7
+Fallout 4,Big Boy,1,,404.07,,1.0,,,1.0,117.0,,21.0,12405,39.0,heavy_weapons,
+Fallout 4,The Striker,2,60.0,30.7,,50.0,,31702.0,1.0,117.0,,2512.0,1,63.0,heavy_weapons,81.82
+Fallout 4,Nuka-nuke launcher,3,,xx05178F,,36.0,,,1.0,117.0,,,18.06,63.0,heavy_weapons,
+Fallout 4,Flamer,4,53.0,137,,,,,108.0,90.0,,8.51,16.1,47.0,heavy_weapons,0.0
+Fallout 4,Sergeant Ash,5,53.0,xx051599,,,,,117.0,90.0,,,16.1,47.0,heavy_weapons,
+Fallout 4,Harpoon gun,6,40.0,12.58,,1.0,,,2.0,143.0,,10.0,205,63.0,heavy_weapons,
+Fallout 4,Admiral's Friend,7,40.0,1005,,,,,2.0,143.0,,61.66,16.3,63.0,heavy_weapons,5158.0
+Fallout 4,Skipper's Last Stand,8,40.0,1005,,,,,2.0,143.0,,61.66,16.3,63.0,heavy_weapons,4.0
+Fallout 4,Defender's Harpoon Gun,9,40.0,1005,,,,,2.0,143.0,,61.66,16.3,63.0,heavy_weapons,32507.0
+Fallout 4,Heavy incinerator,10,53.0,,,6.0,,,175.2,24.0,,,FEXXX809,23.0,heavy_weapons,
+Fallout 4,Junk Jet,11,30.0,6.2,,,,,20.0,119.0,,0.0,285,75.0,heavy_weapons,
+Fallout 4,Minigun,12,35.0,382,,5.0,,,217.6,272.0,,14.0,27.4,131.0,heavy_weapons,1.0
+Fallout 4,Ashmaker,13,39.0,1755,,5.0,,,281.7,313.0,,61.1,28.7,77.0,heavy_weapons,1.0
+Fallout 4,Missile launcher,14,45.0,14.95,,1.0,,,2.0,203.0,,3.0,314,65.0,heavy_weapons,
+Fallout 4,Partystarter,15,50.0,,,,,,2.0,191.0,,1.0,4822,107.0,heavy_weapons,
+Fallout 4,Death From Above,16,75.0,213.29,,,,,2.0,203.0,,225969.0,4479,65.0,heavy_weapons,
+Fallout 4,Broadsider,17,40.0,9,,1.0,,,2.0,203.0,,0.0,245,63.0,heavy_weapons,
+Fallout 4,Cryolator,18,66.0,302,,,,,180.0,90.0,,22.9,13.2,71.0,heavy_weapons,171.0
+Fallout 4,Institute laser,0,70.0,50.0,,,,,99.0,66.0,,12.8,3.9,71.0,laser_weapons,1633.0
+Fallout 4,Virgil's rifle,1,85.0,384.0,,,,,217.8,66.0,,53.3,7.2,227.0,laser_weapons,225.0
+Fallout 4,Laser musket,2,70.0,57.0,,,,,18.0,6.0,,4.5,12.6,71.0,laser_weapons,1.0
+Fallout 4,Laser gun,3,25.0,19.7,,30.0,,,120.0,50.0,,9983.0,69.0,71.0,laser_weapons,
+Fallout 4,Old Faithful,4,71.0,929.0,,,,,145.0,50.0,,206.4,4.5,71.0,laser_weapons,1.0
+Fallout 4,Survivor's Special,5,42.0,340.0,,,,,19.0,44.0,,70.8,4.8,47.0,laser_weapons,225.0
+Fallout 4,Protectron's Gaze,6,44.0,352.0,,,,,307.8,57.0,,69.0,5.1,47.0,laser_weapons,1.0
+Fallout 4,Good Intentions,7,82.0,393.0,,,,,237.3,113.0,,49.7,7.9,194.0,laser_weapons,22537.0
+Fallout 4,"Prototype UP77 ""Limitless Potential""",8,96.0,355.0,,,,,120.0,50.0,,54.6,6.5,227.0,laser_weapons,23.0
+Fallout 4,Righteous Authority,9,76.0,326.0,,,,,130.0,50.0,,59.3,5.5,203.0,laser_weapons,225963.0
+Fallout 4,Salvaged Assaultron head,10,50.0,5.0,,,,,11.0,93.0,,100.0,40.0,65.0,laser_weapons,
+Fallout 4,Wazer Wifle,11,76.0,364.0,,,,,275.0,50.0,,57.8,6.3,302.0,laser_weapons,225965.0
+Fallout 4,Gatling laser,12,30.0,41.7,,500.0,,,380.8,272.0,,0.0,804.0,203.0,laser_weapons,
+Fallout 4,Final Judgment,13,48.0,3804.0,,,,,476.0,340.0,,197.1,19.3,203.0,laser_weapons,225.0
+Fallout 4,Aeternus,14,63.0,4799.0,,,,,355.5,45.0,,122.1,39.3,251.0,laser_weapons,4.0
+Fallout 4,Alien atomizer,0,70.0,1536,,,,,540.0,100.0,,512.0,3.0,155.0,other_weapons,84.0
+Fallout 4,Alien blaster pistol,1,79.0,42,,20.0,,620.4,500.0,100.0,,2.5,Alien blaster round or Fusion cell,119.0,other_weapons,1551.0
+Fallout 4,Hub's Alien Blaster,2,76.0,Alien blaster round or Fusion cell,,20.0,,2751.0,580.0,100.0,xx043416,42.0,"x2 critical shot damage, critical meter fills 15% faster.",149.0,other_weapons,2.5
+Fallout 4,Alien disintegrator,3,72.0,1770,,,,,220.0,40.0,,376.6,4.7,155.0,other_weapons,99.0
+Fallout 4,BFG 9000,4,,,,10.0,,,66.0,11.0,,,,52.0,other_weapons,
+Fallout 4,Cosmic cannon,5,,17.3,,33.0,,,90.0,77.0,,864.0,95,72.0,other_weapons,
+Fallout 4,Cryolator,6,66.0,13.2,,21.0,,171.0,180.0,90.0,,302.0,25,71.0,other_weapons,22.9
+Fallout 4,Solar cannon,7,76.0,FEXXXF99,,,,,104.0,16.0,,,31.6,155.0,other_weapons,
+Fallout 4,Tesla cannon,8,62.0,314,,,,,120.0,20.0,,14.9,21,395.0,other_weapons,99.0
+Fallout 4,Tesla rifle,9,70.0,8.1,,,,3.0,152.0,40.0,,90.0,15,83.0,other_weapons,11.1
+Fallout 4,Thirst Zapper,10,,xx007BC8,,2.0,,,,100.0,,,5,,other_weapons,
+Fallout 4,Thunderbolt,11,,Fusion cell,,,,,,,,15.0,,,other_weapons,824.0
+Fallout 4,Pipe bolt-action,0,63.0,3.2,,1.17,,14831.0,6.8,2.0,,30.0,6,95.0,pipe_weapons,9.4
+Fallout 4,Pipe gun,1,57.0,2.3,,0.43,,24.0,71.5,55.0,,20.0,12,83.0,pipe_weapons,8.7
+Fallout 4,Pipe revolver,2,61.0,4.2,,0.68,,14831.0,14.4,6.0,,25.0,6,83.0,pipe_weapons,6.0
+Fallout 4,.44 pistol,0,66.0,4.2,,1.2,,0.0,28.8,6.0,,99.0,6,119.0,pistols,23.6
+Fallout 4,Eddie's Peace,1,81.0,5,,50.0,,225.0,28.8,6.0,,454.0,6,125.0,pistols,90.8
+Fallout 4,Kellogg's pistol,2,70.0,449,,0.44,,,28.8,6.0,,104.4,4.3,119.0,pistols,225.0
+Fallout 4,The Gainer,3,74.0,468,,0.44,,,28.8,6.0,,101.7,4.6,119.0,pistols,225.0
+Fallout 4,Early Retirement,4,70.0,,,0.44,,,25.0,,,,,119.0,pistols,0.0
+Fallout 4,10mm pistol,5,60.0,3.5,,1.5,,4822.0,82.8,46.0,,50.0,12,83.0,pistols,14.3
+Fallout 4,Wastelander's Friend,6,78.0,772,,10.0,,,124.2,46.0,,128.7,7.3,107.0,pistols,1.0
+Fallout 4,Gen-4 10mm pistol,7,,10mm round,,,,,,,xx000DA0,,+50% more damage to robots.,,pistols,
+Fallout 4,Deliverer,8,67.0,12,,1.69,,175.9,165.0,66.0,,4.4,10mm round,53.0,pistols,774.0
+Fallout 4,Silver Sidearm,9,,,,,,,66.0,10.0,,,,,pistols,
+Fallout 4,Classic 10mm pistol,10,28.0,,,,,,41.0,119.0,,0.0,,62.0,pistols,
+Fallout 4,Ultimatum,11,,10mm round,,,,,,,xx00081D,,+50 radiation damage.,,pistols,
+Fallout 4,Flare gun,12,74.0,2,,0.25,,1025.0,3.0,3.0,,50.0,1,146.0,pistols,25.0
+Fallout 4,Western revolver,13,40.0,99,,0.44,,,36.0,6.0,,19.0,5.2,66.0,pistols,415.0
+Fallout 4,Bottlecap mine,0,,,,,0.5,150.0,301.0,,,,,,placed_explosives,75.0
+Fallout 4,Cryo mine,1,,,,,,50.0,101.0,,0010C669,,,,placed_explosives,0.5
+Fallout 4,Fragmentation mine,2,,,,,0.5,100.0,101.0,,,,,,placed_explosives,50.0
+Fallout 4,Nuke mine,3,,,,,0.5,200.0,301.0,,,,,,placed_explosives,100.0
+Fallout 4,Plasma mine,4,,,,,0.5,200.0,150.0,,,,,,placed_explosives,100.0
+Fallout 4,Pulse mine,5,,,,,0.5,200.0,150.0,,,,,,placed_explosives,100.0
+Fallout 4,Bear trap,0,,,,,,54072.0,,,,,,,placed_traps,8.0
+Fallout 4,Bleeding bear trap,1,,,,,,540.0,,,,,,,placed_traps,8.0
+Fallout 4,Caltrops,2,,,,,,5406.0,,,,,,,placed_traps,0.5
+Fallout 4,Poisoned caltrops,3,,,,,,540.0,,,,,,,placed_traps,0.5
+Fallout 4,Plasma gun,0,30.0,31.5,,30.0,,,115.5,33.0,,100.0,123.0,119.0,plasma_weapons,
+Fallout 4,Experiment 18-A,1,140.0,,,25.0,,1.0,680.0,136.0,,,,203.0,plasma_weapons,
+Fallout 4,Sentinel's Plasmacaster,2,148.0,602.0,,,,,270.6,33.0,,125.4,4.8,119.0,plasma_weapons,225967.0
+Fallout 4,Anti-materiel rifle,0,71.0,12,,1.91,,9.0,10.0,2.0,,55.0,3,119.0,rifles,4.58
+Fallout 4,Assault rifle,1,72.0,13.1,,0.94,,463.0,120.0,40.0,,144.0,30,119.0,rifles,11.0
+Fallout 4,CR-74L,2,99.0,,,,,,135.0,41.0,,,,0.45,rifles,
+Fallout 4,Combat rifle,3,70.0,11.1,,1.32,,0.0,108.9,33.0,,117.0,20,119.0,rifles,10.5
+Fallout 4,December's Child,4,5.56,xx014459,,,,,135.0,41.0,,,,5.56,rifles,
+Fallout 4,Overseer's Guardian,5,76.0,117,,0.45,,,495.0,90.0,,10.5,11.1,109.0,rifles,1.0
+Fallout 4,Gauss rifle,6,69.0,15.8,,3.67,,0.0,726.0,66.0,,228.0,7,191.0,rifles,14.4
+Fallout 4,The Last Minute,7,50.0,300.1,,20.0,,,66.0,203.0,,22.0,6500,112.0,rifles,
+Fallout 4,Prototype Gauss rifle,8,81.0,14.7,,3.0,,,60.0,6.0,,0.0,265,191.0,rifles,
+Fallout 4,Handmade rifle,9,72.0,136,,7.62,,,128.0,40.0,,10.6,12.8,119.0,rifles,33.0
+Fallout 4,The Problem Solver,10,92.0,,,7.62,,,56.0,59.0,,,,185.0,rifles,36.0
+Fallout 4,Splattercannon,11,108.0,6855,,7.62,,,576.3,113.0,,290.5,23.6,89.0,rifles,4.0
+Fallout 4,Hunting rifle,12,71.0,9.6,,1.32,,4.0,11.1,3.0,,55.0,5,131.0,rifles,5.7
+Fallout 4,Reba,13,71.0,5.7,,5.0,,,11.1,3.0,,1.0,55,131.0,rifles,
+Fallout 4,Reba II,14,92.0,306,,0.308,,,25.6,4.0,,19.7,15.5,215.0,rifles,1.0
+Fallout 4,Tinker Tom Special,15,112.0,706,,0.308,,,16.5,3.0,,42.3,16.7,185.0,rifles,1.0
+Fallout 4,Lever-action rifle,16,72.0,9,,1.35,,2.0,17.5,5.0,,150.0,5,122.0,rifles,16.7
+Fallout 4,Lucky Eddy,17,72.0,201,,0.45,,,17.5,5.0,,22.3,9,122.0,rifles,45675.0
+Fallout 4,Old Reliable,18,61.0,801,,0.45,,,35.0,5.0,,89.0,9,122.0,rifles,5158.0
+Fallout 4,Manwell carbine,19,70.0,,,16.0,,,227.7,33.0,,,FEXXXFC2,119.0,rifles,
+Fallout 4,Manwell rifle,20,62.0,,,6.0,,,297.0,33.0,,,FEXXX94B,119.0,rifles,
+Fallout 4,Radium rifle,21,72.0,11.1,,1.08,,25.0,108.0,40.0,,80.0,20,119.0,rifles,7.2
+Fallout 4,Kiloton radium rifle,22,72.0,xx05158E,,0.45,,,108.0,40.0,,,11.1,119.0,rifles,
+Fallout 4,Radical Conversion,23,72.0,xx045673,,0.45,,,108.0,40.0,,,11.1,119.0,rifles,
+Fallout 4,Railway rifle,24,69.0,14.4,,5.0,,0.0,100.0,10.0,,290.0,10,119.0,rifles,20.1
+Fallout 4,Prototype railway rifle,25,71.0,14.4,,5.0,,221235.0,1.0,2.0,,290.0,1,119.0,rifles,20.1
+Fallout 4,Submachine gun,26,63.0,12.7,,0.28,,15.0,127.0,127.0,,109.0,50,107.0,rifles,8.6
+Fallout 4,Silver submachine gun,27,63.0,8.8,,50.0,,,127.0,127.0,,1.0,121,107.0,rifles,
+Fallout 4,Spray n' Pray,28,69.0,57.1,,0.45,,,419.1,127.0,,1.0,1084,77.0,rifles,
+Fallout 4,Syringer,29,72.0,132,,,,,,2.0,,21.3,6.2,119.0,rifles,14.0
+Fallout 4,Combat shotgun,0,23.0,8.0,,32.0,,7.8,100.0,20.0,,11.1,Shotgun shell,47.0,shotguns,87.0
+Fallout 4,Justice,1,28.0,15.5,,,,1.0,100.0,20.0,,1076.0,,35.0,shotguns,69.4
+Fallout 4,Le Fusil Terribles,2,29.0,15.7,,25.0,,225771.0,124.0,20.0,,389.0,,71.0,shotguns,24.8
+Fallout 4,Double-barrel shotgun,3,16.0,2.0,,27.0,,4.33,162.0,36.0,,9.0,Shotgun shell,47.0,shotguns,39.0
+Fallout 4,Handmade shotgun,4,16.0,9.0,,30.0,,804.0,162.0,36.0,,39.0,2,47.0,shotguns,4.33
+Fallout 4,Triple-barrel handmade shotgun,5,16.0,9.0,,30.0,,803.0,180.0,36.0,,60.0,3,47.0,shotguns,6.67
+Fallout 4,Baseball grenade,0,,,1.0,,,40.0,101.0,,,,,,thrown_explosives,40.0
+Fallout 4,Cryogenic grenade,1,,,0.5,,,100.0,151.0,,,,,,thrown_explosives,50.0
+Fallout 4,Fragmentation grenade,2,,,0.5,,,100.0,151.0,,,,,,thrown_explosives,50.0
+Fallout 4,Fragmentation grenade MIRV,3,,,1.0,,,75.0,1.0,,,,,,thrown_explosives,75.0
+Fallout 4,Smart fragmentation grenade,4,,,0.6,,,100.0,151.0,,,,,,thrown_explosives,60.0
+Fallout 4,HalluciGen gas grenade,5,,,1.0,,,35.0,1.0,,,,,,thrown_explosives,35.0
+Fallout 4,Fury grenade,6,,,1.0,,,35.0,1.0,,,,,,thrown_explosives,35.0
+Fallout 4,Persuasion grenade,7,,,1.0,,,35.0,1.0,,,,,,thrown_explosives,35.0
+Fallout 4,Predator grenade,8,,,1.0,,,35.0,1.0,,,,,,thrown_explosives,35.0
+Fallout 4,Homing beacon,9,,,,,,0.0,1.0,,00065DEC,,,,thrown_explosives,1.0
+Fallout 4,Institute EM pulse grenade,10,,,0.5,,,200.0,150.0,,,,,,thrown_explosives,100.0
+Fallout 4,Molotov cocktail,11,,,0.5,,,40.0,51.0,,,,,,thrown_explosives,20.0
+Fallout 4,Nuka grenade,12,,,0.5,,,200.0,301.0,,,,,,thrown_explosives,100.0
+Fallout 4,Nuka Cherry grenade,13,,,0.5,,,100.0,201.0,,,,,,thrown_explosives,50.0
+Fallout 4,Nuka Quantum grenade,14,,,0.5,,,100.0,301.0,,,,,,thrown_explosives,50.0
+Fallout 4,Plasma grenade,15,,,0.5,,,270.0,150.0,,,,,,thrown_explosives,135.0
+Fallout 4,Pulse grenade,16,,,,,,100.0,150.0,,000FF21F,,,,thrown_explosives,0.5

@@ -1,36 +1,29 @@
-from pathlib import Path
-from transformer import Transformer
-from loader import Loader
-from extractor import Extractor
+import asyncio
+from loader import csv_loader
+from transformer.source_sanitizer import SourceSanitizer  # Nuevo Módulo
+from extractor.kaggle_extractor import KaggleExtractor
+from transformer.weapon_processor import WeaponProcessor
+from loader.csv_loader import CSVLoader
 
-def main():
-    # 1. Inicialización
-    extractor = Extractor()
-    transformer = Transformer()
-    loader = Loader()
-
-    # 2. Ejecución del ETL
-    print("🚀 Iniciando proceso ETL...")
+async def main():
     
-    # Simulación de descarga si no existe la carpeta
-    archive_path = Path("./archive")
-    if not archive_path.exists():
-        print("📥 Descargando dataset...")
-        extractor.download() 
-    else:
-        print("📂 Usando archivos locales de './archive'...")
-
-    print("🛠️ Transformando y Normalizando datos...")
-    data_dict = transformer.extract_and_transform()
-    #data_dict = transformer.get_header()
-
-    # 3. Carga
-    print("💾 Generando script SQL Relacional...")
-    #loader.to_txt_file(data_dict)  # Guarda el debug en un txt para referencia
-    loader.to_sql_file(data_dict)
+    # 0. FASE PRE-EXTRACT (Limpia los CSV corruptos de raíz)
+    sanitizer = SourceSanitizer()
+    sanitizer.sanitize_all_sources()
     
-    print("\n✅ Proceso completado con éxito.")
-    print(f"📍 Tu base de datos está lista en: {loader.output_path}")
+    # 1. Extracción Pura (Ahora lee archivos perfectos sin comas dobles)
+    extractor = KaggleExtractor()
+    raw_dataframes = await extractor.extract()
+    
+    # 2. Transformación Pura (Mapeo por RegEx + Sanitización de celdas)
+    processor = WeaponProcessor()
+    processed_dfs = await processor.process_extracted_data(raw_dataframes)
+    
+    # 4. Carga Pura Paralela
+    csv_loader = CSVLoader()
+    await asyncio.gather(*(csv_loader.load(df) for df in processed_dfs))
+    
+    print("🎉 ¡Pipeline finalizado con éxito!")
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())

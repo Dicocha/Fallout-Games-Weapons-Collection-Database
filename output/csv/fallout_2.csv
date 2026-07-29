@@ -1,0 +1,73 @@
+﻿game_title,weapon_name,,ammo_name,ap_cost,caps_value,damage,notes,shoot_modes,special,strength_required,upgrades,weapon_range,weapon_type,weight
+Fallout 2,Flamethrower,0,Flamethrower fuel,6.0,2000.0,45.0,,Flame Burst (uses 1 fuel pack),,6,"The upgrade will improve penetration, resulting in more damage. It'll also require new fuel, Flamethrower fuel MK-II (blue package).",5.0,big_guns,18.0
+Fallout 2,Rockwell Rocket Launcher,1,HE or AP rocket,6.0,2300.0,35.0,,Single shot only,,6,,40.0,big_guns,15.0
+Fallout 2,M60,2,7.62mm ammo,6.0,2300.0,18.0,,10-round burst,,7,,35.0,big_guns,23.0
+Fallout 2,Light Support Weapon,3,.223 FMJ ammo,6.0,3750.0,20.0,,10-round burst,,6,,40.0,big_guns,20.0
+Fallout 2,Bozar,4,.223 FMJ ammo,6.0,5250.0,25.0,,15-round burst,,6,,35.0,big_guns,20.0
+Fallout 2,Rockwell CZ53 Minigun,5,5mm JHP,6.0,3800.0,7.0,,40-round burst,,7,,35.0,big_guns,28.0
+Fallout 2,"Rockwell CZ53 ""Avenger"" Minigun",6,5mm JHP,6.0,5500.0,10.0,,40-round burst,,7,,40.0,big_guns,28.0
+Fallout 2,Vindicator Minigun,7,4.7 mm caseless ammo,6.0,15250.0,14.0,,25-round burst,,7,,30.0,big_guns,28.0
+Fallout 2,Wattz 2000 Laser Rifle,0,Micro Fusion Cell,56.0,5000.0,25.0,,Single (aimed),,6,"Extended Charge upgrade, upgrades battery capacity to 24",45.0,large_weapons,12.0
+Fallout 2,HK L30 Gatling Laser,1,Micro Fusion Cell,6.0,7500.0,20.0,,10 laser ray burst,,6,,40.0,large_weapons,24.0
+Fallout 2,Winchester P94 Plasma Rifle,2,Micro Fusion Cell,56.0,4000.0,35.0,,Single (aimed),,6,Turbo Plasma Rifle - increases damage by about 5 hp and increases range by 10 hexes,25.0,large_weapons,12.0
+Fallout 2,YK42B Pulse Rifle,3,Micro Fusion Cell,56.0,17500.0,54.0,,Single (aimed),,3,,30.0,large_weapons,9.0
+Fallout 2,Rock,0,,34.0,0.0,1.0,,"Swing (aimed), Throw (aimed)",,1,,1.0,melee_thrown_weapons,1.0
+Fallout 2,Wooden Pole,1,,45.0,5.0,2.0,,"Thrust (aimed), Throw (aimed)",,3,,2.0,melee_thrown_weapons,3.0
+Fallout 2,Spear,2,,45.0,80.0,3.0,,"Thrust (aimed), Throw (aimed)",,4,Sharpened Spear; get flint from Aunt Morlis to sharpen the spear (higher damage dealt),2.0,melee_thrown_weapons,4.0
+Fallout 2,Throwing Knife,3,,45.0,100.0,3.0,,"Thrust (aimed), Throw (aimed)",,3,,1.0,melee_thrown_weapons,1.0
+Fallout 2,Switchblade,0,,34.0,50.0,2.0,,"Swing (aimed), Thrust (aimed)",,1,,1.0,melee_weapons,1.0
+Fallout 2,Wrench,1,,34.0,65.0,3.0,,"Swing (aimed), Thrust (aimed)",,3,Quest Item in Vault City,1.0,melee_weapons,4.0
+Fallout 2,Knife,2,,34.0,40.0,1.0,,"Swing (aimed), Thrust (aimed)",,2,,1.0,melee_weapons,1.0
+Fallout 2,Police Baton,3,,34.0,30.0,1.0,,Swing (aimed),,3,,1.0,melee_weapons,3.0
+Fallout 2,Crowbar,4,,45.0,65.0,3.0,,Swing (aimed),,5,Can be used to open locked doors,1.0,melee_weapons,5.0
+Fallout 2,Sledgehammer,5,,45.0,120.0,4.0,,"Swing (aimed), Thrust (aimed)",,6,,2.0,melee_weapons,12.0
+Fallout 2,Combat Knife,6,,34.0,165.0,3.0,,"Swing (aimed), Thrust (aimed)",,2,,1.0,melee_weapons,2.0
+Fallout 2,Wakizashi Blade,7,,34.0,200.0,4.0,,"Swing (aimed), Thrust (aimed)",,,,1.0,melee_weapons,3.0
+Fallout 2,"""Little Jesus""",8,,34.0,200.0,5.0,,"Swing (aimed), Thrust (aimed)",,2,,1.0,melee_weapons,3.0
+Fallout 2,Louisville Slugger,9,,34.0,,12.0,,Swing (aimed),,2,,,melee_weapons,4.0
+Fallout 2,Super Sledgehammer,10,,34.0,3750.0,18.0,,"Swing (aimed), Thrust (aimed)",,5,,,melee_weapons,12.0
+Fallout 2,Viroblade Ripper,11,,45.0,900.0,15.0,,"Swing (aimed), Thrust (aimed)",,4,,,melee_weapons,5.0
+Fallout 2,Wattz Cattle Prod,12,,45.0,600.0,12.0,,"Swing (aimed), Thrust (aimed)",,4,"Super Cattle Prod, doubles damage dealt.",,melee_weapons,3.0
+Fallout 2,Colt 6520 10mm Pistol,0,10mm JHP,56.0,250.0,5.0,,Single shot (aimed),,3,,25.0,pistols,3.0
+Fallout 2,Desert Eagle .44,1,.44 caliber JHP,56.0,800.0,10.0,,Single shot (aimed),,4,"Extended magazine, upgrades ammo capacity to 20 rounds",25.0,pistols,7.0
+Fallout 2,.44 Magnum Revolver,2,.44 caliber JHP,45.0,600.0,12.0,,Single shot (aimed),,5,"Speed loader, reduces reload cost to 1 AP",15.0,pistols,5.0
+Fallout 2,14mm Pistol,3,14mm AP ammo,56.0,1100.0,12.0,,Single shot (aimed),,4,,24.0,pistols,4.0
+Fallout 2,Needler Pistol,4,HN,56.0,2200.0,12.0,,Single shot (aimed),,3,,24.0,pistols,4.0
+Fallout 2,Mauser M/96 Pistol,5,9mm ball,56.0,1500.0,5.0,,Single shot (aimed),,3,,22.0,pistols,5.0
+Fallout 2,.223 Pistol,6,.223 FMJ ammo,56.0,3500.0,20.0,,Single shot (aimed),,5,,30.0,pistols,7.0
+Fallout 2,PPK12 Gauss Pistol,7,2mm EC ammo,56.0,5250.0,22.0,,Single shot (aimed),,4,,50.0,pistols,5.0
+Fallout 2,Red Ryder BB Gun,0,BB ammo,56.0,200.0,1.0,,Single shot (aimed),,3,,32.0,rifles,5.0
+Fallout 2,Pipe Rifle,1,10mm JHP,56.0,200.0,5.0,,Single shot (aimed),,5,,25.0,rifles,10.0
+Fallout 2,Colt Hunting Rifle,2,.223 FMJ ammo,56.0,1000.0,8.0,,Single shot (aimed),,5,"Sight scope, increases accuracy",40.0,rifles,11.0
+Fallout 2,AK-112 Assault Rifle,3,5mm JHP,56.0,1300.0,8.0,,"Single shot (aimed), 8-round burst",,5,"Extended magazine, upgrades ammo capacity to 100 rounds",45.0,rifles,10.0
+Fallout 2,DKS-501 Sniper Rifle,4,.223 FMJ ammo,67.0,2200.0,14.0,,Single shot (aimed),,5,,50.0,rifles,8.0
+Fallout 2,FN-FAL,5,7.62mm ammo,56.0,2200.0,9.0,,"Single shot (aimed), 10-round burst",,5,"Night scope, improves accuracy in dimly lit areas",35.0,rifles,9.0
+Fallout 2,XL70E3,6,5mm JHP,56.0,3000.0,12.0,,"Single shot (aimed), 8-round burst",,5,,35.0,rifles,9.0
+Fallout 2,Red Ryder LE BB Gun,7,BB ammo,56.0,3500.0,25.0,,Single shot (aimed),,3,,32.0,rifles,5.0
+Fallout 2,M72 Gauss Rifle,8,2mm EC ammo,56.0,8250.0,32.0,,Single shot (aimed),,6,,50.0,rifles,10.0
+Fallout 2,"Winchester ""Widowmaker"" Shotgun",0,12 gauge shells,56.0,800.0,12.0,,Single shot (aimed),,4,,14.0,shotguns,5.0
+Fallout 2,Sawed-off Shotgun,1,12 gauge shells,56.0,800.0,12.0,,Single shot (aimed),,4,,7.0,shotguns,4.0
+Fallout 2,"Winchester ""City-Killer"" Combat Shotgun",2,12 gauge shells,56.0,2750.0,15.0,,"Single shot (aimed), 3-round burst",,5,,22.0,shotguns,10.0
+Fallout 2,HK CAWS (Close Assault Weapons System),3,12 gauge shells,56.0,4750.0,15.0,,"Single shot (aimed), 5-round burst",,6,,30.0,shotguns,5.0
+Fallout 2,Pancor Jackhammer,4,12 gauge shells,56.0,5500.0,19.0,,"Single shot (aimed), 5-round burst",,5,,35.0,shotguns,12.0
+Fallout 2,Wattz 1000 Laser Pistol,0,Small Energy Cell,56.0,1400.0,10.0,,Single (aimed),,3,"Magneto Laser Pistol, improves penetration",35.0,small_weapons,4.0
+Fallout 2,Glock 86 Plasma Pistol,1,Small Energy Cell,56.0,2750.0,15.0,,Single (aimed),,4,"Extended capacity, increases battery capacity to 32 cells",20.0,small_weapons,4.0
+Fallout 2,YK32 Pulse Pistol,2,Small Energy Cell,45.0,12500.0,32.0,,Single (aimed),,3,,15.0,small_weapons,4.0
+Fallout 2,Solar Scorcher,3,Solar energy,45.0,2000.0,20.0,,Single (aimed),,3,,20.0,small_weapons,5.0
+Fallout 2,Alien Blaster,4,Small Energy Cell,45.0,10000.0,30.0,,Single (aimed),,2,,10.0,small_weapons,2.0
+Fallout 2,MP9 10mm SMG,0,10mm JHP,56.0,1000.0,5.0,,"Single shot (aimed), 10-round burst",,4,,25.0,sub_machine_guns,5.0
+Fallout 2,Thompson SMG (Tommy Gun),1,.45 caliber ammo,56.0,1100.0,3.0,,"Single shot (aimed), 10-round burst",,6,,32.0,sub_machine_guns,7.0
+Fallout 2,M3A1 SMG (Grease Gun),2,.45 caliber ammo,45.0,1750.0,10.0,,"Single shot (aimed), 8-round burst",,4,,20.0,sub_machine_guns,7.0
+Fallout 2,HK P90c SMG,3,10mm JHP,45.0,2500.0,12.0,"The gun in Vault 15 is loaded with 9mm ammo, but will reload with 10mm ammo. It's a bug.","Single shot (aimed), 12-round burst",,4,,30.0,sub_machine_guns,8.0
+Fallout 2,HK G11 SMG,4,4.7mm caseless ammo,56.0,6500.0,10.0,,"Single shot (aimed), 5-round burst",,5,,35.0,sub_machine_guns,8.0
+Fallout 2,HK G11E SMG,5,4.7mm caseless ammo,56.0,8000.0,13.0,,"Single shot (aimed), 7-round burst",,6,,40.0,sub_machine_guns,8.0
+Fallout 2,Plant Spike,0,,45.0,5.0,1.0,,,,1,,8.0,thrown_weapons,1.0
+Fallout 2,Fragmentation Grenade,1,,45.0,150.0,20.0,,,,3,,15.0,thrown_weapons,1.0
+Fallout 2,Pulse Grenade,2,,45.0,250.0,100.0,,,Can only affect mechanical units,4,,15.0,thrown_weapons,1.0
+Fallout 2,Plasma Grenade,3,,45.0,300.0,40.0,,,,4,,15.0,thrown_weapons,1.0
+Fallout 2,Molotov Cocktail,4,,56.0,50.0,8.0,,,,3,,12.0,thrown_weapons,1.0
+Fallout 2,Boxing Gloves,0,,,250.0,1.0,,,,,These are used for the New Reno boxing championships.,,unarmed_weapons,5.0
+Fallout 2,Plated Boxing Gloves,1,,,300.0,2.0,,,,,Ditto for regular Boxing Gloves. Note that you'll need to find them before you begin boxing (they can be found in the basement of Bishop's Shark Club).,,unarmed_weapons,10.0
+Fallout 2,Brass Knuckles,2,,,60.0,2.0,,,,,,,unarmed_weapons,1.0
+Fallout 2,Spiked Knuckles,3,,,250.0,4.0,,,,,,,unarmed_weapons,1.0
+Fallout 2,Power Fist,4,Small Energy Cell,,1800.0,12.0,,,,,Mega Power Fist - significantly boosts damage,,unarmed_weapons,10.0

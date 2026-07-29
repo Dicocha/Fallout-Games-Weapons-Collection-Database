@@ -1,0 +1,319 @@
+﻿game_title,weapon_name,,accuracy,ammo_name,ap_cost,caps_value,damage,fire_rate,form_id,magazine_capacity,weapon_range,weapon_type,weight
+Fallout 76,Assaultron blade,0,,,35.0,70.0,40.0,,0010F3F2,,,bladed_melee,1.0
+Fallout 76,Auto Axe,1,,,30.0,125.0,26.0,,006361A2,,,bladed_melee,12.0
+Fallout 76,Black Diamond,2,,,30.0,40.0,50.0,,000360CF,,,bladed_melee,3.0
+Fallout 76,Blade of Bastet,3,,,35.0,80.0,52.0,,0039C6C8,,,bladed_melee,3.0
+Fallout 76,Bowie knife,4,,,20.0,35.0,30.0,,000311DE,,,bladed_melee,1.0
+Fallout 76,Chainsaw,5,,,20.0,125.0,16.0,,0004DF01,,,bladed_melee,12.0
+Fallout 76,Chinese officer sword,6,,,35.0,50.0,36.0,,00147BE4,,,bladed_melee,3.0
+Fallout 76,Combat knife,7,,,20.0,25.0,33.0,,000913CA,,,bladed_melee,1.0
+Fallout 76,Commander's Charge,8,122.0,,,,4620.0,35.0,,,3.6,bladed_melee,
+Fallout 76,Cultist blade,9,,,30.0,35.0,41.0,,0005A937,,,bladed_melee,3.0
+Fallout 76,Cultist dagger,10,,,20.0,40.0,32.0,,0008E015,,,bladed_melee,1.0
+Fallout 76,Fire axe,11,,,30.0,15.0,72.0,,0012B793,,,bladed_melee,3.0
+Fallout 76,Grant's saber,12,,,35.0,,36.0,,00357FBD,,,bladed_melee,3.0
+Fallout 76,Grognak's Axe,13,,,20.0,100.0,85.0,,00183FCD,,,bladed_melee,10.0
+Fallout 76,Hatchet,14,,,30.0,15.0,40.0,,0010D808,,,bladed_melee,3.0
+Fallout 76,Machete,15,,,30.0,20.0,40.0,,00033FE0,,,bladed_melee,2.0
+Fallout 76,Meat hook,16,,,30.0,20.0,34.0,,00111562,,,bladed_melee,2.0
+Fallout 76,Meteoritic sword,17,,,35.0,50.0,36.0,,00111AB6,,,bladed_melee,3.0
+Fallout 76,Mr. Handy buzz blade,18,,,40.0,50.0,8.0,,0010EC97,,,bladed_melee,10.0
+Fallout 76,Multi-purpose axe,19,,,40.0,40.0,69.0,,002A0405,,,bladed_melee,4.0
+Fallout 76,Nailer,20,,,30.0,15.0,41.0,,00342521,,,bladed_melee,3.0
+Fallout 76,Oathbreaker,21,,,40.0,,82.0,,005E897C,,,bladed_melee,9.0
+Fallout 76,Pickaxe,22,,,40.0,40.0,60.0,,00002840,,,bladed_melee,2.5
+Fallout 76,Pitchfork,23,,,40.0,15.0,47.0,,0003A1D1,,,bladed_melee,2.0
+Fallout 76,Plasma cutter,24,,,35.0,,748.0,,005E8876,,,bladed_melee,3.0
+Fallout 76,Pole hook,25,,,40.0,45.0,71.0,,00110771,,,bladed_melee,7.0
+Fallout 76,Revolutionary sword,26,41.0,,,,37.0,35.0,,,3.0,bladed_melee,
+Fallout 76,Ripper,27,,,40.0,130.0,2.0,,000FA2F6,,,bladed_melee,6.0
+Fallout 76,Shepherd's crook,28,,,40.0,45.0,50.0,,0045582B,,,bladed_melee,7.0
+Fallout 76,Shishkebab,29,,,35.0,120.0,2722.0,,000FA2FB,,,bladed_melee,3.0
+Fallout 76,Sickle,30,,,30.0,15.0,36.0,,000B3293,,,bladed_melee,3.0
+Fallout 76,Ski sword,31,,,30.0,40.0,50.0,,000360CF,,,bladed_melee,3.0
+Fallout 76,Spear,32,,,40.0,40.0,58.0,,002D473A,,,bladed_melee,2.0
+Fallout 76,Switchblade,33,,,20.0,20.0,30.0,,000FDC81,,,bladed_melee,1.0
+Fallout 76,Sword,34,,,,,,,,,,bladed_melee,
+Fallout 76,The Gutter,35,,,35.0,70.0,40.0,,003F5E94WasteManagement005E6F9EDailyOps,,,bladed_melee,1.0
+Fallout 76,The Invader,36,,,20.0,25.0,33.0,,00559D45,,,bladed_melee,1.0
+Fallout 76,The Quick Fix,37,,,20.0,20.0,30.0,,00403026,,,bladed_melee,1.0
+Fallout 76,War glaive,38,,,40.0,,82.0,,005D79C7,,,bladed_melee,9.0
+Fallout 76,All Rise,0,,,45.0,70.0,85.0,,000FF9640047187E,,,blunt_melee,20.0
+Fallout 76,Baseball bat,1,,,35.0,25.0,55.0,,0008E736,,,blunt_melee,3.0
+Fallout 76,Baton,2,,,30.0,15.0,40.0,,00008C1D,,,blunt_melee,2.0
+Fallout 76,Board,3,,,33.0,10.0,50.0,,0005C250,,,blunt_melee,3.0
+Fallout 76,Bone club,4,,,30.0,15.0,51.0,,003643DA,,,blunt_melee,3.0
+Fallout 76,Bone hammer,5,,,40.0,45.0,80.0,,003643D9,,,blunt_melee,12.0
+Fallout 76,Camden Whacker,6,,,25.0,25.0,5.0,,002BA1D9,,,blunt_melee,2.0
+Fallout 76,Cattleprod,7,,,30.0,,545.0,,0055C153,,,blunt_melee,2.0
+Fallout 76,Ceremonial Mace,8,,,35.0,30.0,30.0,,,,,blunt_melee,2.0
+Fallout 76,Commie Whacker,9,,,25.0,25.0,5.0,,0011475B,,,blunt_melee,2.0
+Fallout 76,Disorderly Conduct,10,,,30.0,15.0,40.0,,0042B0CB,,,blunt_melee,2.0
+Fallout 76,Drill,11,,,40.0,80.0,1.0,,00081DD5,,,blunt_melee,2.0
+Fallout 76,Electro Enforcer,12,,,40.0,,3535.0,,00630C7D,,,blunt_melee,8.0
+Fallout 76,Golf club,13,,,40.0,25.0,45.0,,00073677,,,blunt_melee,3.0
+Fallout 76,Guitar sword,14,,,35.0,55.0,50.0,,0000DC56,,,blunt_melee,3.0
+Fallout 76,Gulper Smacker,15,,,35.0,35.0,62.0,,00633475,,,blunt_melee,3.0
+Fallout 76,Lead Pipe,16,,,30.0,15.0,39.0,,000FC9C3,,,blunt_melee,3.0
+Fallout 76,Mechanic's Best Friend,17,,,35.0,30.0,30.0,,006138520042B0D1,,,blunt_melee,2.0
+Fallout 76,Pipe wrench,18,,,35.0,30.0,30.0,,000D83BF,,,blunt_melee,2.0
+Fallout 76,Pool Cue,19,,,30.0,10.0,46.0,,000FA3E8,,,blunt_melee,1.0
+Fallout 76,Protest Sign,20,,,33.0,1.0,1.0,,002D481E002D4837002D4857002D4864002D4865002D4866002D4867002D4960002D4A7F002D4AA0,,,blunt_melee,3.0
+Fallout 76,Rolling pin,21,,,25.0,10.0,28.0,,00142FAB,,,blunt_melee,1.0
+Fallout 76,Sheepsquatch club,22,,,30.0,15.0,60.0,,00455839,,,blunt_melee,3.0
+Fallout 76,Sheepsquatch staff,23,,,40.0,40.0,75.0,,00455847,,,blunt_melee,12.0
+Fallout 76,Shovel,24,,,40.0,40.0,40.0,,004E2E20,,,blunt_melee,6.0
+Fallout 76,Sledgehammer,25,,,40.0,40.0,71.0,,000E7AB90059656C,,,blunt_melee,12.0
+Fallout 76,Super sledge,26,,,45.0,70.0,85.0,,000FF964,,,blunt_melee,20.0
+Fallout 76,The Debilitator,27,,,45.0,70.0,85.0,,006477ED,,,blunt_melee,20.0
+Fallout 76,The Farmhand,28,,,45.0,70.0,85.0,,005EA440,,,blunt_melee,20.0
+Fallout 76,The Tenderizer,29,,,45.0,70.0,75.0,,00553295,,,blunt_melee,20.0
+Fallout 76,Tire Iron,30,,,25.0,25.0,29.0,,00185D25,,,blunt_melee,2.0
+Fallout 76,Walking Cane,31,,,20.0,10.0,42.0,,000FDC7D,,,blunt_melee,2.0
+Fallout 76,War Drum,32,,,45.0,115.0,78.0,,0000DC57,,,blunt_melee,20.0
+Fallout 76,Bow,0,53.0,Arrow . (Ultracite),28.0,44.0,90.0,100.0,0055C152,1.0,204.0,bows,3.0
+Fallout 76,Compound bow,1,54.0,Arrow . (Ultracite),20.0,45.0,100.0,100.0,00013CE9,1.0,204.0,bows,3.0
+Fallout 76,Crossbow,2,70.0,Crossbow bolt . (Ultracite),28.0,50.0,70.0,4.0,00055463,0.3,186.0,bows,6.0
+Fallout 76,Baseball Grenade,0,20.0,,,,175.0,94.0,,,1.0,explosives,107.0
+Fallout 76,Bug grenade,1,25.0,,,,25.0,94.0,,,0.5,explosives,3.0
+Fallout 76,Cryogenic Grenade,2,25.0,,,,100.0,94.0,,,0.5,explosives,0.0
+Fallout 76,Dross,3,50.0,,,,5.0,94.0,,,0.5,explosives,31.0
+Fallout 76,Dynamite,4,0.0,,,15.0,175.0,0.0,0055C159,,94.0,explosives,0.5
+Fallout 76,Dynamite bundle,5,0.0,,,15.0,225.0,0.0,0055C15A,,94.0,explosives,0.5
+Fallout 76,Explosive bait,6,450366.0,,,,1.0,1.0,,,10.0,explosives,
+Fallout 76,Flare,7,0.0,,,15.0,0.0,0.0,0055C157,,94.0,explosives,0.5
+Fallout 76,Floater Flamer Grenade,8,0.5,,,592.0,1254.0,,,,94.0,explosives,25.0
+Fallout 76,Floater Freezer Grenade,9,25.0,,,,100.0,94.0,,,0.5,explosives,592.0
+Fallout 76,Floater Gnasher Grenade,10,0.5,,,592.0,808.0,,,,94.0,explosives,25.0
+Fallout 76,Fragmentation Grenade,11,15.0,,,,150.0,94.0,,,0.5,explosives,0.0
+Fallout 76,Fragmentation Grenade MIRV,12,0.0,,,50.0,100.0,0.0,00113849,,94.0,explosives,1.0
+Fallout 76,HalluciGen Gas Grenade,13,0.0,,,25.0,1.0,0.0,000E98E5,,94.0,explosives,1.0
+Fallout 76,Molotov cocktail,14,20.0,,,,50.0,94.0,,,0.5,explosives,10.0
+Fallout 76,Nuka Grenade,15,0.0,,,,250.0,0.5,,,35.0,explosives,
+Fallout 76,Nuka Quantum Grenade,16,50.0,,,,300.0,94.0,,,0.5,explosives,113.0
+Fallout 76,Orbital scan beacon,17,0.0,,,50.0,1.0,0.0,00052213,,94.0,explosives,1.0
+Fallout 76,Orbital strike beacon,18,0.0,,,50.0,1.0,0.0,000073F8,,94.0,explosives,0.5
+Fallout 76,Plasma Grenade,19,30.0,,,,200.0,94.0,,,0.5,explosives,10.0
+Fallout 76,Pulse Grenade,20,0.5,,,0.0,175.0,,,,94.0,explosives,20.0
+Fallout 76,Pumpkin Grenade,21,,,,20.0,40.0,,00045884,,,explosives,0.5
+Fallout 76,Turbo-Fert Fertilizer,22,0.0,,,20.0,0.0,0.0,00592F7A,,94.0,explosives,1.0
+Fallout 76,Vertibot signal grenade,23,0.0,,,0.0,1.0,0.0,0004DFE3,,94.0,explosives,1.0
+Fallout 76,Auto grenade launcher,0,55.0,40mm grenade round,30.0,225.0,3.0,100.0,00182634,12.0,120.0,explosive_guns,18.0
+Fallout 76,Boomstick,1,69.0,Missile,45.0,100.0,1.0,2.0,0067F606,1.0,204.0,explosive_guns,20.0
+Fallout 76,Nuka-Launcher,2,55.0,40mm grenade round,30.0,225.0,3.0,100.0,00682044,12.0,120.0,explosive_guns,18.0
+Fallout 76,Overkill,3,64.0,Mini Nuke,60.0,300.0,1.0,2.0,00685531,1.0,117.0,explosive_guns,20.0
+Fallout 76,The Peacemaker,4,55.0,12,40.0,67.0,3.0,100.0,,18.0,120.0,explosive_guns,225.0
+Fallout 76,.50 Cal Machine Gun,0,47.0,.50 Round (Ultracite),30.0,175.0,43.0,91.0,0003A0D4,250.0,204.0,heavy_guns,18.0
+Fallout 76,Auto grenade launcher,1,55.0,40mm grenade round,30.0,225.0,3.0,100.0,00182634,12.0,120.0,heavy_guns,18.0
+Fallout 76,Boomstick,2,69.0,Missile,45.0,100.0,1.0,2.0,0067F606,1.0,204.0,heavy_guns,20.0
+Fallout 76,Broadsider,3,65.0,Cannonball,40.0,140.0,1.0,3.0,000FD11B,1.0,204.0,heavy_guns,16.0
+Fallout 76,Bunker Buster,4,69.0,Missile,45.0,100.0,1.0,2.0,0003F6F800471880,1.0,204.0,heavy_guns,20.0
+Fallout 76,Cremator,5,63.0,Fuel,30.0,,100.0,15.0,00729BFE,90.0,204.0,heavy_guns,12.0
+Fallout 76,Crushing Blow,6,27.0,40mm grenade round,30.0,30.0,3.0,3.0,00403021,1.0,120.0,heavy_guns,6.0
+Fallout 76,Cryolator,7,70.0,Cryo cell,20.0,145.0,36.0,91.0,00171B2B,25.0,120.0,heavy_guns,10.0
+Fallout 76,Daisycutter,8,64.0,Mini Nuke,60.0,300.0,1.0,2.0,000BD56F00471882,1.0,117.0,heavy_guns,20.0
+Fallout 76,Fat Man,9,64.0,Mini Nuke,60.0,300.0,1.0,2.0,000BD56F,1.0,117.0,heavy_guns,20.0
+Fallout 76,Final Word,10,47.0,250,0.5,5.0,43.0,114.0,,18.0,204.0,heavy_guns,1049.0
+Fallout 76,Flamer,11,60.0,Fuel,30.0,150.0,36.0,91.0,000E5881,100.0,204.0,heavy_guns,15.0
+Fallout 76,Gatling Gun,12,55.0,5mm round (Ultracite),30.0,175.0,86.0,20.0,00011BF6,250.0,120.0,heavy_guns,18.0
+Fallout 76,Gatling Plasma,13,41.0,Plasma Core Ultracite Plasma Core,30.0,250.0,58.0,91.0,0001EC47,500.0,204.0,heavy_guns,18.0
+Fallout 76,Gatling laser,14,56.0,Fusion Core (Ultracite),30.0,200.0,25.0,182.0,000E27BC,500.0,204.0,heavy_guns,18.0
+Fallout 76,Gauss Minigun,15,36.0,2mm Ultracite,30.0,,58.0,91.0,0055C151,500.0,204.0,heavy_guns,18.0
+Fallout 76,Harpoon gun,16,6.0,Harpoon,40.0,120.0,175.0,2.0,001109CF,1.0,120.0,heavy_guns,16.0
+Fallout 76,Hellstorm missile launcher,17,70.0,Missile,45.0,,120.0,14.0,005E47EE,4.0,204.0,heavy_guns,13.0
+Fallout 76,Holy Fire,18,60.0,Fuel,30.0,150.0,100.0,91.0,006A983C,100.0,204.0,heavy_guns,15.0
+Fallout 76,Kingfisher,19,83.0,1,,42.0,175.0,2.0,,20.8,120.0,heavy_guns,126.0
+Fallout 76,Light Machine Gun,20,74.0,.308 Round (Ultracite),32.0,150.0,42.0,159.0,0007CAB1,75.0,174.0,heavy_guns,8.0
+Fallout 76,M79 grenade launcher,21,27.0,40mm grenade round,30.0,30.0,3.0,3.0,0008F0EF,1.0,120.0,heavy_guns,6.0
+Fallout 76,Minigun,22,47.0,500,5.0,1.0,24.0,182.0,,18.0,204.0,heavy_guns,146.0
+Fallout 76,Missile launcher,23,69.0,Missile,45.0,100.0,1.0,2.0,0003F6F8,1.0,204.0,heavy_guns,20.0
+Fallout 76,Nuka-Launcher,24,55.0,40mm grenade round,30.0,225.0,3.0,100.0,00682044,12.0,120.0,heavy_guns,18.0
+Fallout 76,Overkill,25,64.0,Mini Nuke,60.0,300.0,1.0,2.0,00685531,1.0,117.0,heavy_guns,20.0
+Fallout 76,Pepper Shaker,26,32.0,Shotgun shell Fusion cell Plasma cartridge,30.0,150.0,60.0,41.0,0060E0EF,50.0,96.0,heavy_guns,18.0
+Fallout 76,Plasma Caster,27,23.0,Plasma cartridge Ultracite,30.0,55.0,7660.0,20.0,,20.0,120.0,heavy_guns,18.0
+Fallout 76,Pyrolyzer,28,53.0,100,,0.0,44.0,91.0,,26.63,288.0,heavy_guns,232.0
+Fallout 76,Resolute Veteran,29,110.0,250,5.0,42.0,86.0,25.0,,21.6,52.0,heavy_guns,250.0
+Fallout 76,The Action Hero,30,47.0,250,0.5,403025.0,43.0,114.0,,18.0,204.0,heavy_guns,1049.0
+Fallout 76,The Guarantee,31,64.0,Mini Nuke,60.0,300.0,1.0,2.0,00403024,1.0,117.0,heavy_guns,20.0
+Fallout 76,The Peacemaker,32,55.0,12,40.0,67.0,3.0,100.0,,18.0,120.0,heavy_guns,225.0
+Fallout 76,Ultracite Gatling Laser,33,56.0,Fusion Core (Ultracite),30.0,300.0,28.0,182.0,002EF66E,500.0,204.0,heavy_guns,18.0
+Fallout 76,Acceptable Overkill,0,72.0,Fusion cell (Ultracite),25.0,60.0,40.0,40.0,0042B0CF,30.0,120.0,laser_pistols,3.0
+Fallout 76,Laser Gun,1,72.0,Fusion cell (Ultracite),25.0,60.0,44.0,40.0,0009983B,30.0,120.0,laser_pistols,3.0
+Fallout 76,Ultracite Laser Gun,2,72.0,Fusion cell (Ultracite),25.0,150.0,34.0,50.0,00186171,30.0,120.0,laser_pistols,3.0
+Fallout 76,Acceptable Overkill,0,72.0,Fusion cell (Ultracite),25.0,60.0,40.0,40.0,0042B0CF,30.0,120.0,laser_rifles,3.0
+Fallout 76,Laser Gun,1,72.0,Fusion cell (Ultracite),25.0,60.0,44.0,40.0,0009983B,30.0,120.0,laser_rifles,3.0
+Fallout 76,Ultracite Laser Gun,2,72.0,Fusion cell (Ultracite),25.0,150.0,34.0,50.0,00186171,30.0,120.0,laser_rifles,3.0
+Fallout 76,Ancient blade,0,,,35.0,75.0,36.0,,002C3EC7,,,one_handd_melee,3.0
+Fallout 76,Assaultron blade,1,,,35.0,70.0,40.0,,0010F3F2,,,one_handd_melee,1.0
+Fallout 76,Baton,2,,,30.0,15.0,40.0,,00008C1D,,,one_handd_melee,2.0
+Fallout 76,Black Diamond,3,,,30.0,40.0,50.0,,000360CF,,,one_handd_melee,3.0
+Fallout 76,Blade of Bastet,4,,,35.0,80.0,52.0,,0039C6C8,,,one_handd_melee,3.0
+Fallout 76,Blue Ridge Branding Iron,5,,,35.0,,2722.0,,,,,one_handd_melee,691.0
+Fallout 76,Bone club,6,,,30.0,15.0,51.0,,003643DA,,,one_handd_melee,3.0
+Fallout 76,Bowie knife,7,,,20.0,35.0,30.0,,000311DE,,,one_handd_melee,1.0
+Fallout 76,Camden Whacker,8,,,25.0,25.0,5.0,,002BA1D9,,,one_handd_melee,2.0
+Fallout 76,Cattleprod,9,,,30.0,,545.0,,0055C153,,,one_handd_melee,2.0
+Fallout 76,Ceremonial Mace,10,,,35.0,30.0,30.0,,,,,one_handd_melee,2.0
+Fallout 76,Chinese officer sword,11,,,35.0,50.0,36.0,,00147BE4,,,one_handd_melee,3.0
+Fallout 76,Combat knife,12,,,20.0,25.0,33.0,,000913CA,,,one_handd_melee,1.0
+Fallout 76,Commie Whacker,13,,,25.0,25.0,5.0,,0011475B,,,one_handd_melee,2.0
+Fallout 76,Cryptid Jawbone Knife,14,,,20.0,25.0,100.0,,006ABA10,,,one_handd_melee,1.0
+Fallout 76,Cultist blade,15,,,30.0,35.0,41.0,,0005A937,,,one_handd_melee,3.0
+Fallout 76,Cultist dagger,16,,,20.0,40.0,32.0,,0008E015,,,one_handd_melee,1.0
+Fallout 76,Disorderly Conduct,17,,,30.0,15.0,40.0,,0042B0CB,,,one_handd_melee,2.0
+Fallout 76,Drill,18,,,40.0,80.0,1.0,,00081DD5,,,one_handd_melee,2.0
+Fallout 76,Grant's saber,19,,,35.0,,36.0,,00357FBD,,,one_handd_melee,3.0
+Fallout 76,Guitar sword,20,,,35.0,55.0,50.0,,0000DC56,,,one_handd_melee,3.0
+Fallout 76,Hatchet,21,,,30.0,15.0,40.0,,0010D808,,,one_handd_melee,3.0
+Fallout 76,Lead Pipe,22,,,30.0,15.0,39.0,,000FC9C3,,,one_handd_melee,3.0
+Fallout 76,Luca's Switchblade,23,,,20.0,20.0,,,00691B69,,,one_handd_melee,1.0
+Fallout 76,Machete,24,,,30.0,20.0,40.0,,00033FE0,,,one_handd_melee,2.0
+Fallout 76,Mechanic's Best Friend,25,,,35.0,30.0,30.0,,006138520042B0D1,,,one_handd_melee,2.0
+Fallout 76,Meteoritic sword,26,,,35.0,50.0,36.0,,00111AB6,,,one_handd_melee,3.0
+Fallout 76,Nailer,27,,,30.0,15.0,41.0,,00342521,,,one_handd_melee,3.0
+Fallout 76,Paddle Ball,28,,,1129.0,,1.0,10.0,,,2.0,one_handd_melee,
+Fallout 76,Pipe wrench,29,,,35.0,30.0,30.0,,000D83BF,,,one_handd_melee,2.0
+Fallout 76,Plasma cutter,30,,,35.0,,747.0,,005E8876,,,one_handd_melee,3.0
+Fallout 76,Ripper,31,,,40.0,130.0,2.0,,000FA2F6,,,one_handd_melee,6.0
+Fallout 76,Rolling pin,32,,,25.0,10.0,28.0,,00142FAB,,,one_handd_melee,1.0
+Fallout 76,Sheepsquatch club,33,,,30.0,15.0,60.0,,00455839,,,one_handd_melee,3.0
+Fallout 76,Shishkebab,34,,,35.0,120.0,2722.0,,000FA2FB,,,one_handd_melee,3.0
+Fallout 76,Sickle,35,,,30.0,15.0,36.0,,000B3293,,,one_handd_melee,3.0
+Fallout 76,Ski sword,36,,,30.0,40.0,50.0,,000360CF,,,one_handd_melee,3.0
+Fallout 76,Switchblade,37,,,20.0,20.0,30.0,,000FDC81,,,one_handd_melee,1.0
+Fallout 76,The Gutter,38,,,35.0,70.0,40.0,,003F5E94WasteManagement005E6F9EDailyOps,,,one_handd_melee,1.0
+Fallout 76,The Invader,39,,,20.0,25.0,33.0,,00559D45,,,one_handd_melee,1.0
+Fallout 76,The Quick Fix,40,,,20.0,20.0,30.0,,00403026,,,one_handd_melee,1.0
+Fallout 76,Tire Iron,41,,,25.0,25.0,29.0,,00185D25,,,one_handd_melee,2.0
+Fallout 76,Walking Cane,42,,,20.0,10.0,42.0,,000FDC7D,,,one_handd_melee,2.0
+Fallout 76,.44 Pistol,0,65.0,.44 Round (Ultracite),35.0,40.0,60.0,7.0,000CE97D,6.0,84.0,pistols,4.0
+Fallout 76,10mm pistol,1,63.0,10mm round Ultracite,20.0,40.0,28.0,43.0,00004822,12.0,120.0,pistols,3.0
+Fallout 76,Alien Blaster,2,75.0,Alien Blaster Round Fusion cell,20.0,90.0,32.0,100.0,000FF995,42.0,120.0,pistols,2.0
+Fallout 76,Anti-Scorched training pistol,3,66.0,10mm round,20.0,45.0,28.0,75.0,004F496F,12.0,108.0,pistols,3.0
+Fallout 76,Black powder blunderbuss,4,66.0,.50 Caliber Ball,28.0,90.0,175.0,2.0,00003AAD,1.0,12.0,pistols,3.0
+Fallout 76,Black powder pistol,5,66.0,.50 Caliber Ball,28.0,60.0,175.0,2.0,00003AAC,1.0,204.0,pistols,3.0
+Fallout 76,Circuit Breaker,6,78.0,6,35.0,,75.0,7.0,,6.0,84.0,pistols,52.0
+Fallout 76,Crusader Pistol,7,63.0,10mm round 5.56 round Fusion cell,20.0,,35.0,43.0,005E6FC0,12.0,120.0,pistols,3.0
+Fallout 76,Fancy single action revolver,8,67.0,.44 Round (Ultracite),35.0,95.0,62.0,6.0,0034CBD8,6.0,228.0,pistols,4.0
+Fallout 76,Flare Gun,9,75.0,Flare,40.0,50.0,5.0,3.0,001025AC,1.0,147.0,pistols,2.0
+Fallout 76,Gamma gun,10,71.0,Gamma round,30.0,90.0,121.0,67.0,000DDB7C,8.0,120.0,pistols,3.0
+Fallout 76,Gauss pistol,11,58.0,2mm electromagnetic cartridge (Ultracite),35.0,54.0,115.0,67.0,,18.0,120.0,pistols,4.0
+Fallout 76,Imposter Assaultron Head,12,65.0,Fusion cell,30.0,115.0,50.0,12.0,0041A668,5.0,94.0,pistols,8.0
+Fallout 76,Medical Malpractice,13,27.0,.44 Round (Ultracite),35.0,79.0,81.0,7.0,005FE0B800403022,6.0,84.0,pistols,6.0
+Fallout 76,Pipe bolt-action,14,63.0,.308 Round Ultracite.38 round Ultracite,20.0,35.0,70.0,3.0,0014831A,6.0,96.0,pistols,3.0
+Fallout 76,Pipe gun,15,55.0,.38 round (Ultracite).45 Round (Ultracite),21.0,25.0,26.0,60.0,00024F55,12.0,84.0,pistols,4.0
+Fallout 76,Pipe revolver,16,62.0,.45 Round (Ultracite).38 round (Ultracite),25.0,30.0,55.0,5.0,0014831B,6.0,84.0,pistols,3.0
+Fallout 76,Pirate Punch,17,66.0,.50 Caliber Ball,28.0,90.0,175.0,2.0,,1.0,12.0,pistols,3.0
+Fallout 76,Polly's Assaultron head,18,65.0,Worn fusion cell,30.0,115.0,350.0,12.0,0041A39C,5.0,94.0,pistols,8.0
+Fallout 76,Salvaged Assaultron head,19,65.0,Fusion cell,30.0,115.0,50.0,12.0,0010FAA7,5.0,94.0,pistols,8.0
+Fallout 76,Single Action Revolver,20,0.44,85,4.0,,62.0,100.0,,1.0,35.0,pistols,
+Fallout 76,Somerset Special,21,78.0,.44 Round (Ultracite),35.0,52.0,75.0,7.0,000CE97D0047188700439140,6.0,84.0,pistols,6.0
+Fallout 76,The Fact Finder,22,,000CE97D005D0347005D038D,6.0,,90.0,7.0,,,100.0,pistols,
+Fallout 76,The V.A.T.S. Unknown,23,73.0,Alien Blaster Round Fusion cell,20.0,556.0,32.0,100.0,005A21A2,42.0,204.0,pistols,2.25
+Fallout 76,Voice of Set,24,68.0,.44 Round,35.0,126.0,72.0,6.0,0039C6C9,6.0,84.0,pistols,4.4
+Fallout 76,Western Revolver,25,68.0,.44 Round (Ultracite),35.0,120.0,65.0,6.0,00113D6A,6.0,120.0,pistols,4.0
+Fallout 76,Enclave Plasma Gun,0,144.0,Plasma cartridge (Ultracite),25.0,115.0,3224.0,33.0,002FD97A,30.0,120.0,plasma_pistols,3.0
+Fallout 76,Mind Over Matter,1,144.0,Plasma cartridge (Ultracite),25.0,,2013.0,33.0,005EA441,30.0,120.0,plasma_pistols,3.0
+Fallout 76,Plasma gun,2,144.0,Plasma cartridge (Ultracite),25.0,85.0,2013.0,33.0,00100AE9,30.0,120.0,plasma_pistols,3.0
+Fallout 76,Slug Buster,3,144.0,Plasma cartridge (Ultracite),25.0,,2013.0,33.0,005A366E,30.0,120.0,plasma_pistols,3.0
+Fallout 76,Enclave Plasma Gun,0,144.0,Plasma cartridge (Ultracite),25.0,115.0,3224.0,33.0,002FD97A,30.0,120.0,plasma_rifles,3.0
+Fallout 76,Gatling Plasma,1,41.0,Plasma Core Ultracite Plasma Core,30.0,250.0,58.0,91.0,0001EC47,500.0,204.0,plasma_rifles,18.0
+Fallout 76,Mind Over Matter,2,144.0,Plasma cartridge (Ultracite),25.0,,2013.0,33.0,005EA441,30.0,120.0,plasma_rifles,3.0
+Fallout 76,Plasma Caster,3,23.0,Plasma cartridge Ultracite,30.0,55.0,7660.0,20.0,,20.0,120.0,plasma_rifles,18.0
+Fallout 76,Plasma gun,4,144.0,Plasma cartridge (Ultracite),25.0,85.0,2013.0,33.0,00100AE9,30.0,120.0,plasma_rifles,3.0
+Fallout 76,Slug Buster,5,144.0,Plasma cartridge (Ultracite),25.0,,2013.0,33.0,005A366E,30.0,120.0,plasma_rifles,3.0
+Fallout 76,10mm submachine gun,0,50.0,10mm round (Ultracite),28.0,57.0,34.0,91.0,0010DB0F,30.0,84.0,rifles,3.0
+Fallout 76,Acceptable Overkill,1,72.0,Fusion cell (Ultracite),25.0,60.0,40.0,40.0,0042B0CF,30.0,120.0,rifles,3.0
+Fallout 76,Alien Disintegrator,2,67.0,Alien Blaster Round,25.0,,40.0,13.0,0062FE8E,25.0,204.0,rifles,7.0
+Fallout 76,Assault rifle,3,71.0,5.56 round (Ultracite),32.0,105.0,33.0,40.0,0000463F,20.0,120.0,rifles,8.0
+Fallout 76,Black powder rifle,4,74.0,.50 Caliber Ball,28.0,110.0,180.0,1.0,00091BB4,1.0,395.0,rifles,6.0
+Fallout 76,Brotherhood recon rifle,5,65.0,.308 Round (Ultracite),28.0,40.0,70.0,3.0,0004F46A,5.0,132.0,rifles,6.0
+Fallout 76,Combat Rifle,6,68.0,.45 Round (Ultracite) .38 round,25.0,130.0,40.0,33.0,000DF42E,20.0,120.0,rifles,7.0
+Fallout 76,Doctor's Orders,7,65.0,.308 Round (Ultracite),28.0,40.0,70.0,3.0,,5.0,132.0,rifles,6.0
+Fallout 76,Elder's Mark,8,54.0,.45 Round (Ultracite),35.0,100.0,100.0,75.0,00692280,50.0,72.0,rifles,7.0
+Fallout 76,Enclave Plasma Gun,9,144.0,Plasma cartridge (Ultracite),25.0,115.0,3224.0,33.0,002FD97A,30.0,120.0,rifles,3.0
+Fallout 76,Gauss Rifle,10,60.0,2mm electromagnetic cartridge (Ultracite),30.0,200.0,140.0,67.0,000D1EB0,5.0,204.0,rifles,8.0
+Fallout 76,Handmade Rifle,11,71.0,5.56 round(Ultracite),32.0,90.0,45.0,40.0,00113854,20.0,120.0,rifles,8.0
+Fallout 76,Hunting rifle,12,65.0,.308 Round (Ultracite) .50 Round .38 Round,28.0,40.0,70.0,3.0,0004F46A,5.0,132.0,rifles,6.0
+Fallout 76,Laser Gun,13,72.0,Fusion cell (Ultracite),25.0,60.0,44.0,40.0,0009983B,30.0,120.0,rifles,3.0
+Fallout 76,Lever action rifle,14,68.0,.45 Round (Ultracite),26.0,135.0,75.0,5.0,00110E32,5.0,123.0,rifles,6.0
+Fallout 76,Longshot,15,65.0,.308 Round (Ultracite),28.0,40.0,70.0,3.0,0067F5F8,5.0,132.0,rifles,6.0
+Fallout 76,Mind Over Matter,16,144.0,Plasma cartridge(Ultracite),25.0,,2013.0,33.0,005EA441,30.0,120.0,rifles,3.0
+Fallout 76,Night Light,17,75.0,Fusion cell,30.0,241.0,78.0,114.0,0042B0CD,15.0,204.0,rifles,10.4
+Fallout 76,Old Guard's 10mm SMG,18,59.0,10mm round (Ultracite),28.0,221.0,34.0,100.0,0059A82F,30.0,84.0,rifles,3.2
+Fallout 76,Perfect Storm,19,60.0,10mm round(Ultracite),28.0,96.0,348.0,91.0,00439136,30.0,120.0,rifles,4.5
+Fallout 76,Pipe bolt-action,20,63.0,.308 Round Ultracite.38 round Ultracite,20.0,35.0,70.0,3.0,0014831A,6.0,96.0,rifles,3.0
+Fallout 76,Pipe gun,21,55.0,.38 round (Ultracite).45 Round (Ultracite),21.0,25.0,26.0,60.0,00024F55,12.0,84.0,rifles,4.0
+Fallout 76,Pipe revolver,22,62.0,.45 Round (Ultracite).38 round (Ultracite),25.0,30.0,55.0,5.0,0014831B,6.0,84.0,rifles,3.0
+Fallout 76,Plasma gun,23,144.0,Plasma cartridge (Ultracite),25.0,85.0,2013.0,33.0,00100AE9,30.0,120.0,rifles,3.0
+Fallout 76,Radium rifle,24,65.0,.45 Round (Ultracite),25.0,160.0,3715.0,40.0,00110D41,20.0,120.0,rifles,7.0
+Fallout 76,Railway rifle,25,64.0,Railway spike (Ultracite),20.0,90.0,95.0,10.0,000FE268,10.0,120.0,rifles,9.0
+Fallout 76,Rose's syringer,26,73.0,Syringer ammo,35.0,,7.0,3.0,003E1331,1.0,84.0,rifles,4.0
+Fallout 76,Slug Buster,27,144.0,Plasma cartridge (Ultracite),25.0,,2013.0,33.0,005A366E,30.0,120.0,rifles,3.0
+Fallout 76,Sole Survivor,28,110.0,.45 Round (Ultracite),26.0,470.0,75.0,5.0,0061385100403023,5.0,177.0,rifles,15.9
+Fallout 76,Submachine gun,29,54.0,.45 Round (Ultracite),35.0,100.0,29.0,75.0,0015B043,50.0,72.0,rifles,7.0
+Fallout 76,Syringer,30,73.0,Syringer ammo,35.0,75.0,7.0,3.0,0014D09E,1.0,84.0,rifles,4.0
+Fallout 76,Tesla rifle,31,72.0,Fusion cell,30.0,180.0,78.0,20.0,0010F0EC,15.0,228.0,rifles,8.0
+Fallout 76,The Dragon,32,68.0,.50 Caliber Ball,28.0,200.0,225.0,1.0,00046946,1.0,419.0,rifles,6.0
+Fallout 76,The Fixer,33,79.0,.45 Round (Ultracite),25.0,416.0,482.0,33.0,0046D2A1,20.0,90.0,rifles,13.8
+Fallout 76,Ticket to Revenge,34,60.0,Railway spike (Ultracite),7.0,90.0,95.0,75.0,0007AEC3,20.0,192.0,rifles,2.92
+Fallout 76,Ultracite Laser Gun,35,72.0,Fusion cell (Ultracite),25.0,150.0,34.0,50.0,00186171,30.0,120.0,rifles,3.0
+Fallout 76,Vox syringer,36,73.0,Syringer ammo,35.0,,7.0,3.0,0050CA2C,1.0,84.0,rifles,4.0
+Fallout 76,Whistle in the Dark,37,71.0,5.56 round (Ultracite),32.0,105.0,33.0,40.0,005E51E60042B0D2,20.0,120.0,rifles,8.0
+Fallout 76,Civil Unrest,0,24.0,Shotgun shell,35.0,50.0,95.0,5.0,0012DBB300471881,8.0,26.0,shotguns,7.0
+Fallout 76,Cold Shoulder,1,14.0,Shotgun shell,30.0,100.0,115.0,36.0,0067F611,2.0,36.0,shotguns,6.0
+Fallout 76,Combat shotgun,2,16.0,Shotgun shell (Ultracite),35.0,125.0,90.0,20.0,0014831C,8.0,36.0,shotguns,7.0
+Fallout 76,Crowd Control,3,16.0,Shotgun shell (Ultracite),35.0,125.0,90.0,20.0,,8.0,36.0,shotguns,7.0
+Fallout 76,Double-barrel shotgun,4,14.0,Shotgun shell,30.0,100.0,115.0,36.0,00092217,2.0,36.0,shotguns,6.0
+Fallout 76,Fancy pump action shotgun,5,29.0,Shotgun shell,35.0,650.0,95.0,5.0,005A38DA,8.0,72.0,shotguns,15.0
+Fallout 76,Gauss Shotgun,6,26.0,2mm electromagnetic cartridge (Ultracite),35.0,,105.0,67.0,0055C150,8.0,84.0,shotguns,7.0
+Fallout 76,Pepper Shaker,7,32.0,Shotgun shell Fusion cell Plasma cartridge,30.0,150.0,60.0,41.0,0060E0EF,50.0,96.0,shotguns,18.0
+Fallout 76,Pump action shotgun,8,24.0,Shotgun shell,35.0,50.0,95.0,5.0,0012DBB3,8.0,36.0,shotguns,7.0
+Fallout 76,Salt of the Earth,9,14.0,Shotgun shell,30.0,100.0,115.0,36.0,0042B0D3,2.0,36.0,shotguns,6.0
+Fallout 76,The Kabloom,10,24.0,Shotgun shell,35.0,50.0,100.0,5.0,0069255E,8.0,36.0,shotguns,7.0
+Fallout 76,10mm submachine gun,0,50.0,10mm round (Ultracite),28.0,57.0,34.0,91.0,0010DB0F,30.0,84.0,SMGs,3.0
+Fallout 76,Old Guard's 10mm SMG,1,59.0,10mm round (Ultracite),28.0,221.0,34.0,100.0,0059A82F,30.0,84.0,SMGs,3.2
+Fallout 76,Perfect Storm,2,60.0,10mm round(Ultracite),28.0,96.0,348.0,91.0,00439136,30.0,120.0,SMGs,4.5
+Fallout 76,Submachine gun,3,54.0,.45 Round (Ultracite),35.0,100.0,29.0,75.0,0015B043,50.0,72.0,SMGs,7.0
+Fallout 76,All Rise,0,,,45.0,70.0,85.0,,000FF9640047187E,,,two_handd_melee,20.0
+Fallout 76,Auto Axe,1,,,30.0,125.0,26.0,,006361A2,,,two_handd_melee,12.0
+Fallout 76,Baseball bat,2,,,35.0,25.0,55.0,,0008E736,,,two_handd_melee,3.0
+Fallout 76,Board,3,,,33.0,10.0,50.0,,0005C250,,,two_handd_melee,3.0
+Fallout 76,Bone hammer,4,,,40.0,45.0,80.0,,003643D9,,,two_handd_melee,12.0
+Fallout 76,Chainsaw,5,,,20.0,125.0,16.0,,0004DF01,,,two_handd_melee,12.0
+Fallout 76,Cultist Piercer,6,,,40.0,40.0,100.0,,006A009A,,,two_handd_melee,2.5
+Fallout 76,Electro Enforcer,7,,,40.0,,3535.0,,00630C7D,,,two_handd_melee,8.0
+Fallout 76,Fire axe,8,,,30.0,15.0,72.0,,0012B793,,,two_handd_melee,3.0
+Fallout 76,Golf club,9,,,40.0,25.0,45.0,,00073677,,,two_handd_melee,3.0
+Fallout 76,Grognak's Axe,10,,,20.0,100.0,85.0,,00183FCD,,,two_handd_melee,10.0
+Fallout 76,Gulper Smacker,11,,,35.0,35.0,62.0,,00633475,,,two_handd_melee,3.0
+Fallout 76,Mr. Handy buzz blade,12,,,40.0,50.0,8.0,,0010EC97,,,two_handd_melee,10.0
+Fallout 76,Multi-purpose axe,13,,,40.0,40.0,69.0,,002A0405,,,two_handd_melee,4.0
+Fallout 76,Oathbreaker,14,,,40.0,,82.0,,005E897C,,,two_handd_melee,9.0
+Fallout 76,Pickaxe,15,,,40.0,40.0,60.0,,00002840,,,two_handd_melee,2.5
+Fallout 76,Pitchfork,16,,,40.0,15.0,47.0,,0003A1D1,,,two_handd_melee,2.0
+Fallout 76,Pole hook,17,,,40.0,45.0,71.0,,00110771,,,two_handd_melee,7.0
+Fallout 76,Pool Cue,18,,,30.0,10.0,46.0,,000FA3E8,,,two_handd_melee,1.0
+Fallout 76,Protest Sign,19,,,33.0,1.0,1.0,,002D481E002D4837002D4857002D4864002D4865002D4866002D4867002D4960002D4A7F002D4AA0,,,two_handd_melee,3.0
+Fallout 76,Sheepsquatch staff,20,,,40.0,40.0,75.0,,00455847,,,two_handd_melee,12.0
+Fallout 76,Shepherd's crook,21,,,40.0,45.0,50.0,,0045582B,,,two_handd_melee,7.0
+Fallout 76,Shovel,22,,,40.0,40.0,40.0,,004E2E20,,,two_handd_melee,6.0
+Fallout 76,Sledgehammer,23,,,40.0,40.0,71.0,,000E7AB90059656C,,,two_handd_melee,12.0
+Fallout 76,Spear,24,,,40.0,40.0,58.0,,002D473A,,,two_handd_melee,2.0
+Fallout 76,Super sledge,25,,,45.0,70.0,85.0,,000FF964,,,two_handd_melee,20.0
+Fallout 76,The Debilitator,26,,,45.0,70.0,85.0,,006477ED,,,two_handd_melee,20.0
+Fallout 76,The Farmhand,27,,,45.0,70.0,85.0,,005EA440,,,two_handd_melee,20.0
+Fallout 76,The Tenderizer,28,,,45.0,70.0,75.0,,00553295,,,two_handd_melee,20.0
+Fallout 76,War Drum,29,,,45.0,115.0,78.0,,0000DC57,,,two_handd_melee,20.0
+Fallout 76,War glaive,30,,,40.0,,82.0,,005D79C7,,,two_handd_melee,9.0
+Fallout 76,Bear Arm,0,,,40.0,75.0,50.0,,003F06E2,,,unarmed,10.0
+Fallout 76,Boxing glove,1,,,25.0,15.0,34.0,,0016498F,,,unarmed,1.0
+Fallout 76,Death Tambo,2,,,25.0,60.0,45.0,,0000DC55,,,unarmed,0.5
+Fallout 76,Face Breaker,3,,,35.0,100.0,58.0,,0060A29C,,,unarmed,4.0
+Fallout 76,Gauntlet,4,,,40.0,,50.0,,0055C156,,,unarmed,6.0
+Fallout 76,Knuckles,5,,,25.0,10.0,35.0,,0005524B,,,unarmed,0.5
+Fallout 76,Mole miner gauntlet,6,,,40.0,75.0,45.0,,00012E73,,,unarmed,10.0
+Fallout 76,Ogua Gauntlet,7,,,40.0,75.0,100.0,,006B3C2C,,,unarmed,10.0
+Fallout 76,Power fist,8,,,35.0,100.0,58.0,,0011B336,,,unarmed,4.0
+Fallout 76,Tone Death,9,,,25.0,60.0,45.0,,006477EF,,,unarmed,0.5
+Fallout 76,Unstoppable Monster,10,,,40.0,85.0,55.0,,005FCE8C0042B0CE,,,unarmed,10.0

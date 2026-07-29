@@ -1,0 +1,294 @@
+﻿game_title,weapon_name,,accuracy,ammo_name,ap_cost,area_of_effect,caps_value,critical_chance_multiplier,damage,durability,fire_rate,form_id,magazine_capacity,skill_required,strength_required,weapon_type,weight
+Fallout New Vegas,Bowie knife,0,,,20.0,,1000.0,x1.5,23.0,495,3.46,xx0046C7,,75,3,bladed melee,1.0
+Fallout New Vegas,Blood-Nap,1,,,17.0,,2000.0,x1.5,30.0,495,3.69,xx00A606,,50,4,bladed melee,1.0
+Fallout New Vegas,Bumper sword,2,,,38.0,,2500.0,x1,32.0,1495,1.42,000CD50D,,50,8,bladed melee,12.0
+Fallout New Vegas,Blade of the East,3,,,35.0,,45.0,x1,65.0,3995,1.58,00143FBA,,100,9,bladed melee,12.0
+Fallout New Vegas,Blade of the West,4,,,29.0,,5700.0,x1.5,60.0,745,2.13,xx008B05,,100,9,bladed melee,12.0
+Fallout New Vegas,Chainsaw(GRA),5,,,65.0,,2800.0,x1,80.0,7995,1.0,0015FE44xx000851,,75,7,bladed melee,20.0
+Fallout New Vegas,Cleaver,6,,,22.0,,20.0,x1,7.0,1245,2.54,00109A0A,,0,2,bladed melee,2.0
+Fallout New Vegas,Chopper,7,,,22.0,,800.0,x2,14.0,1245,3.92,0014D2AA,,0,2,bladed melee,2.0
+Fallout New Vegas,Combat knife,8,,,17.0,,500.0,x2,15.0,445,3.23,00004326,,50,3,bladed melee,1.0
+Fallout New Vegas,Chance's knife,9,,,17.0,,900.0,x2,22.0,445,4.15,00162C92,,50,3,bladed melee,1.0
+Fallout New Vegas,Cosmic knife,10,,,20.0,,35.0,x1,12.0,745,3.0,xx00BD09,,0,1,bladed melee,1.0
+Fallout New Vegas,Cosmic knife clean,11,,,20.0,,50.0,x1.2,15.0,995,3.0,xx012209,,0,1,bladed melee,1.0
+Fallout New Vegas,Cosmic knife super-heated,12,,,20.0,,50.0,x5,14.0,745,3.0,xx010589,,0,1,bladed melee,1.0
+Fallout New Vegas,Fire axe,13,,,22.0,,2500.0,x1,55.0,995,1.58,0011A8B9,,75,5,bladed melee,8.0
+Fallout New Vegas,Knock-Knock,14,,,21.0,,3200.0,x1,66.0,545,1.8,00156F7C,,75,5,bladed melee,8.0
+Fallout New Vegas,Hatchet,15,,,22.0,,75.0,x1,16.0,1495,2.54,0011A8E4,,25,2,bladed melee,2.0
+Fallout New Vegas,Katana,16,,,21.0,,2500.0,x2,22.0,995,3.23,xx000817,,75,4,bladed melee,3.0
+Fallout New Vegas,Knife,17,,,20.0,,20.0,x1,8.0,745,3.0,00004334,,0,1,bladed melee,1.0
+Fallout New Vegas,Knife spear,18,,,35.0,,55.0,x1,20.0,1995,1.89,xx000FBE,,25,2,bladed melee,3.0
+Fallout New Vegas,Knife spear clean,19,,,35.0,,55.0,x1.2,25.0,1995,1.89,xx012208,,25,2,bladed melee,3.0
+Fallout New Vegas,Machete,20,,,20.0,,50.0,x1.5,11.0,245,3.0,000CE569,,25,3,bladed melee,2.0
+Fallout New Vegas,Broad machete,21,,,17.0,,75.0,x2,15.0,370,3.23,001735E5,,0,3,bladed melee,1.0
+Fallout New Vegas,Liberator,22,,,18.0,,1000.0,x3,18.0,370,3.46,00127E45,,25,3,bladed melee,2.0
+Fallout New Vegas,Machete gladius,23,,,20.0,,1000.0,x1.5,28.0,370,3.0,0015430B,,25,4,bladed melee,2.0
+Fallout New Vegas,Proton axe,24,,,22.0,,3500.0,x1,50.0,995,1.82,xx016A4B,,50,5,bladed melee,8.0
+Fallout New Vegas,Protonic inversal axe,25,,,25.0,,4000.0,x1,58.0,1245,1.82,xx009701,,55,5,bladed melee,8.0
+Fallout New Vegas,Ripper (GRA),26,,,65.0,,1200.0,x1,50.0,5995,1.0,00004349xx000857,,50,3,bladed melee,6.0
+Fallout New Vegas,Shishkebab,27,,,28.0,,2500.0,x2,40.0,2495,2.31,0000434E,,75,6,bladed melee,3.0
+Fallout New Vegas,Gehenna,28,,,25.0,,12000.0,x2,42.0,1995,2.77,xx00080F,,75,6,bladed melee,3.0
+Fallout New Vegas,Straight razor,29,,,18.0,,35.0,x2,5.0,370,3.69,000F0F04,,0,1,bladed melee,1.0
+Fallout New Vegas,Figaro,30,,,17.0,,400.0,x4,8.0,445,4.15,0014D2A7,,0,1,bladed melee,1.0
+Fallout New Vegas,Switchblade,31,,,18.0,,35.0,x2,7.0,495,2.0,000289C3,,25,1,bladed melee,1.0
+Fallout New Vegas,Thermic lance,32,,,65.0,,5500.0,x1,100.0,9995,1.0,0015C881,,100,7,bladed melee,20.0
+Fallout New Vegas,9 iron,0,,,22.0,,55.0,x1,17.0,295,2.37,000FC335,,25,2,blunt melee,3.0
+Fallout New Vegas,Nephi's golf driver,1,,,21.0,,500.0,x1.2,30.0,245,2.37,000F56F6,,25,2,blunt melee,1.0
+Fallout New Vegas,Baseball bat(GRA),2,,,25.0,,250.0,x1,22.0,1995,1.65,0000421Cxx00084C,,25,4,blunt melee,3.0
+Fallout New Vegas,Cattle prod,3,,,28.0,,450.0,x2,5.0,2495,2.3,0013316D,,75,4,blunt melee,3.0
+Fallout New Vegas,Dress cane,4,,,27.0,,40.0,x1,22.0,245,2.3,0011A8A0,,50,2,blunt melee,3.0
+Fallout New Vegas,Lead pipe,5,,,24.0,,75.0,x1,22.0,245,2.54,00004337,,50,5,blunt melee,3.0
+Fallout New Vegas,The Humble Cudgel,6,,,21.0,,350.0,x1,26.0,370,2.77,00157BCA,,50,5,blunt melee,3.0
+Fallout New Vegas,Nail board,7,,,27.0,,250.0,x0,25.0,295,1.4,000A01DD,,25,7,blunt melee,4.0
+Fallout New Vegas,Pool cue,8,,,27.0,,15.0,x0,15.0,245,1.5,00004346,,0,2,blunt melee,1.0
+Fallout New Vegas,Old Glory,9,,,22.0,,2500.0,x1.5,45.0,1245,1.89,xx0076E0,,50,7,blunt melee,8.0
+Fallout New Vegas,Police baton,10,,,23.0,,70.0,x1,10.0,1245,2.8,00004345,,0,1,blunt melee,2.0
+Fallout New Vegas,Rebar club,11,,,40.0,,500.0,x0.5,42.0,1245,1.2,000CD50E,,50,9,blunt melee,9.0
+Fallout New Vegas,Nuka-Breaker,12,,,35.0,,7800.0,x2,50.0,995,1.52,xx000807,,50,9,blunt melee,8.0
+Fallout New Vegas,Rolling pin,13,,,24.0,,10.0,x0,3.0,495,1.7,000B2943,,0,2,blunt melee,1.0
+Fallout New Vegas,Shovel,14,,,28.0,,55.0,x3,12.0,1495,1.7,0011E46F,,0,3,blunt melee,3.0
+Fallout New Vegas,Sledgehammer,15,,,38.0,,130.0,x1,24.0,745,1.9,00004351,,50,7,blunt melee,12.0
+Fallout New Vegas,Super sledge,16,,,38.0,,5800.0,x1,70.0,495,1.5,00004352,,100,8,blunt melee,20.0
+Fallout New Vegas,"Oh, Baby",17,,,35.0,,6200.0,x1,80.0,495,1.74,00156968,,100,8,blunt melee,20.0
+Fallout New Vegas,Tire iron,18,,,27.0,,40.0,x1,15.0,995,2.3,00004328,,0,3,blunt melee,3.0
+Fallout New Vegas,War club,19,,,21.0,,75.0,x1,19.0,995,3.0,xx00BCB5,,25,2,blunt melee,3.0
+Fallout New Vegas,X-2 antenna,20,,,22.0,,6000.0,x1,65.0,620,1.1,xx00C297,,75,7,blunt melee,15.0
+Fallout New Vegas,Deathclaw gauntlet,0,,-,26.0,,150.0,x5,20.0,2995,1.6,0000432B,,100,6,cut content,10.0
+Fallout New Vegas,Debug Mega Pistol,1,0.7,9mm round,17.0,,100.0,x1,9999.0,1120,3.1,001465A6,13.0,0,2,cut content,1.5
+Fallout New Vegas,Double-barrel shotgun,2,,,,,,x,,,,,,,,cut content,
+Fallout New Vegas,Gas grenade,3,,-,24.0,,25.0,x1,1.0,-,0.7,0012701F,,0,2,cut content,0.5
+Fallout New Vegas,Oliver anti-materiel rifle,4,0.0,.50 MG,25.0,,5600.0,x1,150.0,870,0.4,001724F2,8.0,100,6,cut content,20.0
+Fallout New Vegas,Plasma rifle always crit,5,0.2,MFC,25.0,,1800.0,x100,459.0,4495,1.0,000F7EAE,12.0,0,0,cut content,8.0
+Fallout New Vegas,Plasma rifle weak,6,0.2,MFC,25.0,,1800.0,x2,3.0,4495,4.0,000CDA5C,12.0,0,0,cut content,8.0
+Fallout New Vegas,Poisoned hatchet,7,,-,23.0,,75.0,x1,30.0,4995,0.7,xx00F91A,,50,3,cut content,0.5
+Fallout New Vegas,Poisoned mantis gauntlet,8,,-,22.0,,150.0,x3,30.0,245,2.0,xx010E5D,,75,4,cut content,10.0
+Fallout New Vegas,Slave's Burden,9,,-,0.0,,2350.0,x4,16.0,-,1.6,00171B48,,1,7,cut content,400.0
+Fallout New Vegas,Starlet's hand wraps,10,,-,28.0,,100.0,X1,15.0,24995,1.3,xx00E8A4,,0,1,cut content,6.0
+Fallout New Vegas,Stun baton,11,,-,5.0,,110.0,x1,12.0,495,2.3,00166B95,,0,0,cut content,1.0
+Fallout New Vegas,Stun grenade,12,,-,24.0,,50.0,x1,1.0,-,0.7,0014DDDF,,25,2,cut content,0.5
+Fallout New Vegas,The Disintegrator,13,0.0,MFC,17.0,,1000.0,x100,1000.0,4995,3.8,000F82AA,255.0,0,0,cut content,8.0
+Fallout New Vegas,The Faderator,14,0.3,MFC,4.0,,3000.0,x0.01,120.0,3995,168.0,xx000800,255.0,25,3,cut content,7.0
+Fallout New Vegas,Arc welder,0,0.5,ECP,30.0,,3700.0,x0.36,9.0,1245,8.0,xx00766B,30.0,75,7,Energy Heavy weapons,15.0
+Fallout New Vegas,Flamer,1,0.5,Flamer fuel,50.0,,2350.0,x0.42,16.0,995,8.0,0000432D,60.0,50,7,Energy Heavy weapons,15.0
+Fallout New Vegas,Cleansing Flame,2,1.5,Flamer fuel,55.0,,9500.0,x1,15.0,1495,7.0,xx00080B,100.0,50,7,Energy Heavy weapons,22.0
+Fallout New Vegas,Gatling laser,3,0.6,ECP,30.0,,6800.0,x0.02,10.0,7495,30.0,0000432E,240.0,100,8,Energy Heavy weapons,18.0
+Fallout New Vegas,Sprtel-Wood 9700,4,0.5,ECP,30.0,,20000.0,x0.04,16.0,4995,20.0,xx000803,90.0,100,6,Energy Heavy weapons,15.0
+Fallout New Vegas,Heavy incinerator,5,0.5,Flamer fuel,50.0,,7200.0,x0.83,20.0,995,4.0,000E2BFC,24.0,100,8,Energy Heavy weapons,15.0
+Fallout New Vegas,Incinerator,6,0.1,Flamer fuel,50.0,,1300.0,x1.67,20.0,995,2.0,000906DA,30.0,25,6,Energy Heavy weapons,12.0
+Fallout New Vegas,Plasma caster,7,0.7,MFC,25.0,,7000.0,x1,65.0,395,3.0,000906CF,10.0,100,8,Energy Heavy weapons,20.0
+Fallout New Vegas,The Smitty Special,8,1.3,MFC,30.0,,20000.0,x0.1,35.0,1095,7.0,xx00080A,20.0,100,8,Energy Heavy weapons,20.0
+Fallout New Vegas,Tesla cannon,9,0.1,ECP,37.0,,8700.0,x2,80.0,395,1.34,000E2BEC,204.0,100,8,Energy Heavy weapons,8.0
+Fallout New Vegas,Elijah's jury-rigged Tesla cannon,10,0.0,ECP,37.0,,13500.0,x2,85.0,245,1.58,xx01199E,306.0,100,8,Energy Heavy weapons,8.0
+Fallout New Vegas,Tesla-Beaton prototype,11,0.08,ECP,37.0,,12525.0,x2,90.0,195,1.34,0015A47F,244.0,100,8,Energy Heavy weapons,8.0
+Fallout New Vegas,Alien blaster,0,0.0,Alien PC,20.0,,4000.0,x100,75.0,2495,1.8,00004322,10.0,75,1,Energy Pistols,2.0
+Fallout New Vegas,Euclid's C-Finder,1,0.5,ARCHIMEDES II charge,50.0,,1.0,x50,0.0,3995,0.2,0014EB3C,1.0,0,1,Energy Pistols,15.0
+Fallout New Vegas,Flare gun,2,0.5,Flamer fuel,30.0,,500.0,x1.5,10.0,245,1.8,xx004C4E,10.0,0,3,Energy Pistols,2.0
+Fallout New Vegas,Laser pistol(GRA),3,0.1,SEC,15.0,,175.0,x1.5,12.0,995,3.75,00004335xx00084D,30.0,0,1,Energy Pistols,3.0
+Fallout New Vegas,Compliance Regulator,4,0.1,SEC,15.0,,175.0,x1.5,8.0,995,3.75,xx00C626,30.0,0,1,Energy Pistols,3.0
+Fallout New Vegas,Missing laser pistol,5,0.1,SEC,15.0,,175.0,x1.5,11.0,995,3.8,0010A6FC,30.0,0,1,Energy Pistols,3.0
+Fallout New Vegas,Pew Pew,6,0.1,SEC,35.0,,2498.0,x2.5,75.0,395,2.0,00103B1D,102.0,0,1,Energy Pistols,3.0
+Fallout New Vegas,Plasma Defender(GRA),7,0.3,SEC,20.0,,3000.0,x1,38.0,495,2.5,00090727xx000853,3216.0,50,2,Energy Pistols,2.0
+Fallout New Vegas,Plasma pistol(GRA),8,0.5,SEC,30.0,,200.0,x1.5,33.0,745,1.75,00004343xx000855,3216.0,0,2,Energy Pistols,3.0
+Fallout New Vegas,Pulse gun,9,0.1,SEC,20.0,,1800.0,x1,250.0,495,1.0,00090A6B,255.0,25,2,Energy Pistols,2.0
+Fallout New Vegas,Recharger pistol,10,0.1,MF breeder,13.0,,2700.0,x1.2,18.0,1495,5.0,0009071F,20.0,50,2,Energy Pistols,7.0
+Fallout New Vegas,MF Hyperbreeder Alpha,11,1.0,MF breeder,20.0,,8900.0,x2,25.0,3995,7.0,xx000802,10.0,50,2,Energy Pistols,7.0
+Fallout New Vegas,Sonic emitter - Gabriel's bark,12,0.1,SEC,30.0,,3500.0,x1,55.0,495,1.03,xx00E37E,2412.0,50,2,Energy Pistols,2.0
+Fallout New Vegas,Sonic emitter - opera singer,13,0.1,SEC,30.0,,3500.0,x1,55.0,495,1.03,xx00E1B8,24.0,50,2,Energy Pistols,2.0
+Fallout New Vegas,Sonic emitter - revelation,14,0.1,SEC,30.0,,3500.0,x1,31.0,495,1.03,xx00E381,24.0,50,2,Energy Pistols,2.0
+Fallout New Vegas,Sonic emitter - robo-scorpion,15,0.1,SEC,30.0,,3500.0,x1,65.0,495,1.03,xx00E386,248.0,75,2,Energy Pistols,2.0
+Fallout New Vegas,Sonic emitter - tarantula,16,0.1,SEC,30.0,,3500.0,x1,60.0,495,1.03,xx00E389,248.0,75,2,Energy Pistols,2.0
+Fallout New Vegas,Gauss rifle,0,0.03,MFC,40.0,,3000.0,x2,120.0,395,3.0,0015837B,51.0,75,5,Energy Rifles,7.0
+Fallout New Vegas,YCS/186,1,0.0275,MFC,40.0,,3000.0,x2,140.0,495,3.0,0015B38D,41.0,75,5,Energy Rifles,8.0
+Fallout New Vegas,Holorifle,2,0.4,MFC,30.0,,3000.0,x1,80.0,495,1.11,xx0092EF,4.0,50,4,Energy Rifles,8.0
+Fallout New Vegas,LAER,3,0.08,MFC,32.0,,8000.0,x1.5,65.0,370,2.5,xx00B9CF,20.0,75,4,Energy Rifles,4.0
+Fallout New Vegas,Elijah's advanced LAER,4,0.08,MFC,32.0,,8500.0,x1.5,65.0,245,2.75,xx015DD3,15.0,75,4,Energy Rifles,4.0
+Fallout New Vegas,Laser RCW,5,0.08,ECP,20.0,,2150.0,x0.05,15.0,1995,9.0,0009073B,60.0,50,4,Energy Rifles,4.0
+Fallout New Vegas,Laser rifle,6,0.025,MFC,18.0,,800.0,x1.5,22.0,620,3.08,00004336,24.0,25,3,Energy Rifles,8.0
+Fallout New Vegas,AER14 prototype,7,0.0225,MFC,20.0,,2200.0,x2,35.0,495,3.0,001479B3,2412.0,25,3,Energy Rifles,8.5
+Fallout New Vegas,Van Graff laser rifle,8,0.025,MFC,18.0,,800.0,x1.5,15.0,270,3.08,001251CD,24.0,0,3,Energy Rifles,8.0
+Fallout New Vegas,Multiplas rifle,9,1.5,MFC,35.0,,2500.0,x1,10535.0,245,1.0,00121168,3010.0,50,4,Energy Rifles,7.0
+Fallout New Vegas,Plasma rifle,10,0.2,MFC,30.0,,1300.0,x2,47.0,370,1.4,00004344,2412.0,25,3,Energy Rifles,8.0
+Fallout New Vegas,Van Graff plasma rifle,11,0.2,MFC,30.0,,1300.0,x2,32.0,370,1.4,001251CC,2412.0,0,3,Energy Rifles,8.0
+Fallout New Vegas,Q-35 matter modulator,12,0.2,MFC,28.0,,3000.0,x2,40.0,1245,2.4,000E6064,12.0,25,2,Energy Rifles,7.0
+Fallout New Vegas,Recharger rifle,13,0.02,MF breeder,19.0,,250.0,x1.5,12.0,370,4.3,00121154,7.0,0,5,Energy Rifles,15.0
+Fallout New Vegas,Tri-beam laser rifle(GRA),14,0.5,MFC,23.0,,4800.0,x1.5,6622.0,245,2.73,000E2BF4xx000854,248.0,75,4,Energy Rifles,9.0
+Fallout New Vegas,K9000 cyberdog gun,0,1.35,.357 Magnum,27.0,,7500.0,x0.5,26.0,2495,7.0,xx00E39E,50.0,75,8,Heavy weapons,27.0
+Fallout New Vegas,FIDO,1,1.5,.44 Magnum,28.0,,9500.0,x0.5,36.0,2495,7.0,xx00FD3C,50.0,85,9,Heavy weapons,27.0
+Fallout New Vegas,Minigun,2,1.0,5mm,30.0,,5500.0,x0.5,12.0,5995,20.0,0000433F,240.0,100,10,Heavy weapons,25.0
+Fallout New Vegas,CZ57 Avenger,3,0.55,5mm,25.0,,8500.0,x0.5,13.0,7995,30.0,001629B6,120.0,100,10,Heavy weapons,18.0
+Fallout New Vegas,Shoulder mounted machine gun,4,0.9,10mm,30.0,,7500.0,x0,30.0,3995,7.0,xx008858,60.0,75,7,Heavy weapons,17.0
+Fallout New Vegas,Arcade Gannon's Ripper,0,,-,45.0,,100.0,x1,50.0,5995,1.0,00176E5D,,75,3,NPC weapons,6.0
+Fallout New Vegas,Boone's scoped hunting rifle,1,0.015,MCA,40.0,,2600.0,x0.25,52.0,1495,0.8,000CE549,5.0,50,6,NPC weapons,6.0
+Fallout New Vegas,Follows-Chalk's .45 Auto pistol,2,0.8,MCA,17.0,,100.0,x1,29.0,745,2.8,xx00E8EF,7.0,25,3,NPC weapons,1.5
+Fallout New Vegas,Follows-Chalk's war club,3,,-,21.0,,75.0,x1,24.0,995,3.5,xx00E8EE,,25,2,NPC weapons,3.0
+Fallout New Vegas,Joshua's Pistol Whippin' .45,4,,-,24.0,,10.0,x2,20.0,495,2.3,xx010E1F,,0,2,NPC weapons,1.0
+Fallout New Vegas,Lily's assault carbine,5,4.8,MCA,20.0,,3950.0,x0.08,18.0,3745,12.0,00174093,24.0,75,3,NPC weapons,6.0
+Fallout New Vegas,Lily's gauntlet,6,,-,28.0,,100.0,x1,20.0,2495,1.1,00105CF6,,0,8,NPC weapons,6.0
+Fallout New Vegas,Lily's Vertibird blade,7,,-,38.0,,130.0,x1,24.0,4995,1.8,00105CF5,,0,9,NPC weapons,12.0
+Fallout New Vegas,Mysterious Stranger's .44 Magnum,8,0.0,.44 Magnum round,0.0,,0.0,x100,9000.0,4995,1.9,00050F92,6.0,0,0,NPC weapons,3.0
+Fallout New Vegas,Miss Fortune's Bad Luck Bringer,9,0.0,.44 Magnum round,0.0,,0.0,x1,10.0,4995,1.9,0013568B,6.0,0,0,NPC weapons,3.0
+Fallout New Vegas,Mean super sledge,10,,-,38.0,,180.0,x1,85.0,3745,1.5,0013E540,,100,8,NPC weapons,20.0
+Fallout New Vegas,Poisoned bladed gauntlet,11,,-,26.0,,200.0,x2,25.0,295,1.6,xx010E5E,,25,5,NPC weapons,10.0
+Fallout New Vegas,Poisoned cleaver,12,,-,22.0,,2.0,x1,7.0,1245,2.5,xx00F91C,,0,2,NPC weapons,2.0
+Fallout New Vegas,Poisoned fire axe,13,,-,22.0,,2500.0,x1,55.0,995,1.5,xx00F919,,75,5,NPC weapons,8.0
+Fallout New Vegas,Poisoned machete,14,,-,20.0,,50.0,x1.5,11.0,245,3.0,xx00F91B,,25,3,NPC weapons,2.0
+Fallout New Vegas,Poisoned throwing spear,15,,-,24.0,,25.0,x1,35.0,4995,0.6,xx00F91E,,25,1,NPC weapons,0.5
+Fallout New Vegas,Waking Cloud's yao guai gauntlet,16,,-,22.0,,150.0,x2.5,20.0,2995,2.0,xx00E8F0,,50,4,NPC weapons,10.0
+Fallout New Vegas,.357 Magnum revolver,0,0.5,.357 Magnum,26.0,,110.0,x1,26.0,995,1.75,0008F216,6.0,0,3,Pistols,2.0
+Fallout New Vegas,Lucky,1,0.3,.357 Magnum,17.0,,1500.0,x2.5,30.0,1120,2.75,000E2C86,6.0,0,3,Pistols,2.5
+Fallout New Vegas,.44 Magnum revolver,2,0.7,.44 Magnum,25.0,,2500.0,x1,36.0,1245,1.875,0008F215,6.0,50,5,Pistols,3.5
+Fallout New Vegas,Mysterious Magnum,3,0.5,.44 Magnum,22.0,,3200.0,x1,42.0,745,2.44,00127C6C,6.0,50,6,Pistols,4.0
+Fallout New Vegas,.45 Auto pistol,4,0.8,.45 Auto,17.0,,1750.0,x1,29.0,745,2.75,xx008E1A,7.0,25,3,Pistols,1.5
+Fallout New Vegas,A Light Shining in Darkness,5,0.55,.45 Auto,15.0,,4500.0,x2,33.0,1245,4.38,xx009DBE,6.0,75,3,Pistols,1.2
+Fallout New Vegas,5.56mm pistol,6,0.6,5.56mm,21.0,,1200.0,x2,28.0,870,2.75,xx000813,5.0,50,6,Pistols,5.0
+Fallout New Vegas,That Gun,7,0.5,5.56mm,19.0,,1750.0,x2.5,30.0,1120,3.0,00133058,5.0,50,6,Pistols,5.0
+Fallout New Vegas,9mm pistol,8,0.7,9mm,17.0,,100.0,x1,16.0,745,3.13,000E3778,13.0,0,2,Pistols,1.5
+Fallout New Vegas,Maria,9,0.2,9mm,15.0,,1000.0,x2,20.0,995,3.75,000E7655,13.0,0,2,Pistols,1.5
+Fallout New Vegas,10mm pistol,10,0.8,10mm,17.0,,750.0,x1,22.0,395,2.75,0000434F,12.0,25,4,Pistols,3.0
+Fallout New Vegas,Weathered 10mm pistol,11,0.8,10mm,17.0,,1200.0,x1,24.0,545,2.75,001735D4,12.0,0,4,Pistols,3.0
+Fallout New Vegas,12.7mm pistol,12,1.1,12.7mm,17.0,,4000.0,x1,40.0,395,2.75,0008F213,7.0,75,7,Pistols,3.5
+Fallout New Vegas,Li'l Devil,13,0.9,12.7mm,15.0,,16000.0,x2,45.0,595,3.25,xx000805,7.0,75,8,Pistols,3.2
+Fallout New Vegas,Hunting revolver(GRA),14,0.35,.45-70 Gov't,31.0,,3500.0,x1,58.0,545,1.5,0008F214xx000852,5.0,75,6,Pistols,4.0
+Fallout New Vegas,Ranger Sequoia,15,0.1,.45-70 Gov't,30.0,,1200.0,x1.5,62.0,745,1.69,00129A44,5.0,75,6,Pistols,4.0
+Fallout New Vegas,Police pistol,16,0.5,.357 Magnum,19.0,,1000.0,x1,30.0,1120,2.0,xx00BBC2,6.0,0,4,Pistols,3.0
+Fallout New Vegas,Silenced .22 pistol,17,0.5,.22LR,17.0,,80.0,x3,9.0,495,3.5,000E377A,16.0,0,1,Pistols,3.0
+Fallout New Vegas,.357 Magnum revolver,18,0.5,.357 Magnum,26.0,,110.0,x1,26.0,995,1.75,0008F216,6.0,0,3,Pistols,2.0
+Fallout New Vegas,Lucky,19,0.3,.357 Magnum,17.0,,1500.0,x2.5,30.0,1120,2.75,000E2C86,6.0,0,3,Pistols,2.5
+Fallout New Vegas,.44 Magnum revolver,20,0.7,.44 Magnum,25.0,,2500.0,x1,36.0,1245,1.875,0008F215,6.0,50,5,Pistols,3.5
+Fallout New Vegas,Mysterious Magnum,21,0.5,.44 Magnum,22.0,,3200.0,x1,42.0,745,2.44,00127C6C,6.0,50,6,Pistols,4.0
+Fallout New Vegas,.45 Auto pistol,22,0.8,.45 Auto,17.0,,1750.0,x1,29.0,745,2.75,xx008E1A,7.0,25,3,Pistols,1.5
+Fallout New Vegas,A Light Shining in Darkness,23,0.55,.45 Auto,15.0,,4500.0,x2,33.0,1245,4.38,xx009DBE,6.0,75,3,Pistols,1.2
+Fallout New Vegas,5.56mm pistol,24,0.6,5.56mm,21.0,,1200.0,x2,28.0,870,2.75,xx000813,5.0,50,6,Pistols,5.0
+Fallout New Vegas,That Gun,25,0.5,5.56mm,19.0,,1750.0,x2.5,30.0,1120,3.0,00133058,5.0,50,6,Pistols,5.0
+Fallout New Vegas,9mm pistol,26,0.7,9mm,17.0,,100.0,x1,16.0,745,3.13,000E3778,13.0,0,2,Pistols,1.5
+Fallout New Vegas,Maria,27,0.2,9mm,15.0,,1000.0,x2,20.0,995,3.75,000E7655,13.0,0,2,Pistols,1.5
+Fallout New Vegas,10mm pistol,28,0.8,10mm,17.0,,750.0,x1,22.0,395,2.75,0000434F,12.0,25,4,Pistols,3.0
+Fallout New Vegas,Weathered 10mm pistol,29,0.8,10mm,17.0,,1200.0,x1,24.0,545,2.75,001735D4,12.0,0,4,Pistols,3.0
+Fallout New Vegas,12.7mm pistol,30,1.1,12.7mm,17.0,,4000.0,x1,40.0,395,2.75,0008F213,7.0,75,7,Pistols,3.5
+Fallout New Vegas,Li'l Devil,31,0.9,12.7mm,15.0,,16000.0,x2,45.0,595,3.25,xx000805,7.0,75,8,Pistols,3.2
+Fallout New Vegas,Hunting revolver(GRA),32,0.35,.45-70 Gov't,31.0,,3500.0,x1,58.0,545,1.5,0008F214xx000852,5.0,75,6,Pistols,4.0
+Fallout New Vegas,Ranger Sequoia,33,0.1,.45-70 Gov't,30.0,,1200.0,x1.5,62.0,745,1.69,00129A44,5.0,75,6,Pistols,4.0
+Fallout New Vegas,Police pistol,34,0.5,.357 Magnum,19.0,,1000.0,x1,30.0,1120,2.0,xx00BBC2,6.0,0,4,Pistols,3.0
+Fallout New Vegas,Silenced .22 pistol,35,0.5,.22LR,17.0,,80.0,x3,9.0,495,3.5,000E377A,16.0,0,1,Pistols,3.0
+Fallout New Vegas,Bottlecap mine,0,,,35.0,256,150.0,,1.0,,,0000433A,,0,1,placed explosives,0.5
+Fallout New Vegas,C-4 plastic explosive,1,,,24.0,512,1000.0,,1.0,,,001221C1,,50,1,placed explosives,0.5
+Fallout New Vegas,Demolition charge,2,,,38.0,192,75.0,,2.0,,,xx01140B,,0,1,placed explosives,1.5
+Fallout New Vegas,Detonator,3,,,,-,25.0,,,,,00130041,,0,0,placed explosives,0.5
+Fallout New Vegas,Fat mine,4,,,35.0,1400,275.0,,5.0,,,xx000815,,50,3,placed explosives,3.25
+Fallout New Vegas,Frag mine,5,,,35.0,192,75.0,,1.0,,,0000433C,,25,1,placed explosives,0.5
+Fallout New Vegas,Gas bomb,6,,,24.0,600,100.0,,1.0,,,xx00C45D,,50,1,placed explosives,5.0
+Fallout New Vegas,MFC cluster,7,,,35.0,600,110.0,,1.0,,,xx0008C9,,50,2,placed explosives,0.5
+Fallout New Vegas,Plasma mine,8,,,35.0,192,300.0,,1.0,,,0000433D,,75,2,placed explosives,0.5
+Fallout New Vegas,Powder charge,9,,,35.0,192,25.0,,1.0,,,00109A0B,,0,1,placed explosives,0.5
+Fallout New Vegas,Pulse mine,10,,,35.0,450,40.0,,200.0,,,0000433E,,50,2,placed explosives,0.5
+Fallout New Vegas,Satchel charge,11,,,35.0,384,125.0,,1.0,,,xx0076E3,,50,4,placed explosives,0.75
+Fallout New Vegas,Time bomb,12,,,24.0,1024,750.0,,1.0,,,0013D534,,50,1,placed explosives,0.5
+Fallout New Vegas,"Time bomb, high yield",13,,,24.0,1536,750.0,,1.0,,,xx000811,,50,1,placed explosives,0.5
+Fallout New Vegas,25mm grenade APW,0,0.7,25mm,25.0,550,4200.0,,2.0,745,2.5,xx00081B,6.0,75,5,projectile explosives,8.0
+Fallout New Vegas,Fat Man(GRA),1,0.5,Mini nuke,65.0,1700,6000.0,,400.0,495,1.58,0000432Cxx000AC3,1.0,100,8,projectile explosives,30.0
+Fallout New Vegas,Esther,2,0.5,Mini nuke,55.0,1700,18000.0,,475.0,620,1.89,xx000804,1.0,100,8,projectile explosives,40.0
+Fallout New Vegas,Grenade machinegun,3,1.0,25mm,50.0,550,5200.0,,0.0,995,3.0,00090A6A,30.0,100,8,projectile explosives,15.0
+Fallout New Vegas,Mercy,4,1.0,40mm,50.0,750,5200.0,,5.0,2495,3.1,0015FFF4,18.0,100,8,projectile explosives,15.0
+Fallout New Vegas,Grenade launcher,5,0.7,40mm,35.0,750,4200.0,,30.0,495,0.6,0007EA25,4.0,75,5,projectile explosives,12.0
+Fallout New Vegas,Grenade rifle,6,1.0,40mm,35.0,750,300.0,,2.0,495,2.14,000FF576,1.0,25,3,projectile explosives,6.0
+Fallout New Vegas,Great Bear grenade rifle,7,0.5,40mm,32.0,750,950.0,,15.0,1245,2.14,xx0046C4,1.0,25,3,projectile explosives,5.0
+Fallout New Vegas,Mercenary's grenade rifle,8,1.0,40mm,35.0,750,300.0,,2.0,495,2.14,001735E4,1.0,0,3,projectile explosives,5.5
+Fallout New Vegas,Red Victory grenade rifle,9,0.5,40mm,29.0,750,950.0,,2.0,620,3.21,xx0046C3,1.0,25,3,projectile explosives,4.0
+Fallout New Vegas,Thump-Thump,10,0.8,40mm,35.0,750,800.0,,2.0,620,2.79,001429E2,1.0,25,3,projectile explosives,5.5
+Fallout New Vegas,Missile launcher,11,0.3,Missile,55.0,1000,3900.0,,125.0,245,1.58,00004340,1.0,75,6,projectile explosives,20.0
+Fallout New Vegas,Annabelle,12,0.02,Missile,47.0,1000,5200.0,,150.0,495,1.89,00162019,1.0,75,5,projectile explosives,15.0
+Fallout New Vegas,Red Glare,13,0.5,Rocket,25.0,500,15000.0,,20.0,2245,4.0,xx004C3C,13.0,100,6,projectile explosives,20.0
+Fallout New Vegas,Anti-materiel rifle(GRA),0,0.015,.50 MG,65.0,,5600.0,x1,110.0,470,0.45,0008F21Cxx00084F,8.0,100,8,Rifles,20.0
+Fallout New Vegas,Assault carbine(GRA),1,1.2,5mm,20.0,,3950.0,x0.06,13.0,3745,12.0,0008F21Exx000850,24.0,75,3,Rifles,6.0
+Fallout New Vegas,Automatic rifle,2,2.5,.308,35.0,,4500.0,x0.18,40.0,995,6.0,xx00A7A9,20.0,100,8,Rifles,16.0
+Fallout New Vegas,Battle rifle (GRA),3,0.55,.308,25.0,,1500.0,x1,48.0,1495,1.93,xx000812,8.0,75,6,Rifles,9.5
+Fallout New Vegas,This Machine,4,0.5,.308,22.0,,2800.0,x1,55.0,2995,2.14,000F062B,8.0,75,6,Rifles,9.5
+Fallout New Vegas,BB gun,5,0.5,BB,28.0,,36.0,x1,4.0,245,1.54,00004323,100.0,0,1,Rifles,2.0
+Fallout New Vegas,Abilene Kid LE BB gun,6,0.5,BB,28.0,,500.0,x1.5,4.0,495,1.54,0015FF5D,100.0,0,1,Rifles,2.0
+Fallout New Vegas,Brush gun,7,0.06,.45-70 Gov't,33.0,,4900.0,x1,75.0,745,1.23,00121148,6.0,100,6,Rifles,5.0
+Fallout New Vegas,Medicine Stick,8,0.06,.45-70 Gov't,31.0,,20000.0,x1,78.0,995,1.38,xx00080E,8.0,100,6,Rifles,5.5
+Fallout New Vegas,Cowboy repeater,9,0.06,.357 Magnum,27.0,,800.0,x1.25,32.0,595,1.69,0008F21A,7.0,25,4,Rifles,5.0
+Fallout New Vegas,La Longue Carabine,10,0.05,.357 Magnum,24.0,,1500.0,x1.5,35.0,745,2.15,000F56F5,11.0,25,5,Rifles,5.0
+Fallout New Vegas,Hunting rifle,11,0.01,.308,40.0,,2200.0,x2,52.0,1495,0.95,00004333,5.0,50,6,Rifles,6.0
+Fallout New Vegas,Paciencia,12,0.01,.308,35.0,,12000.0,x2,55.0,1745,1.18,xx00080C,3.0,50,6,Rifles,6.2
+Fallout New Vegas,Light machine gun,13,1.5,5.56mm,18.0,,5200.0,x0.06,21.0,3995,12.0,000906DF,90.0,100,8,Rifles,15.0
+Fallout New Vegas,Bozar,14,0.75,5.56mm,18.0,,20000.0,x0.05,19.0,3995,15.01,xx000806,30.0,100,8,Rifles,15.0
+Fallout New Vegas,Marksman carbine,15,0.04,5.56mm,14.0,,5200.0,x1,24.0,1995,5.7,00106FEA,20.0,100,4,Rifles,6.0
+Fallout New Vegas,All-American,16,0.035,5.56mm,13.0,,5900.0,x1,26.0,1995,6.0,00106FEB,24.0,100,4,Rifles,6.0
+Fallout New Vegas,Service rifle,17,0.55,5.56mm,15.0,,540.0,x1,18.0,1995,4.2,000E9C3B,20.0,25,2,Rifles,8.5
+Fallout New Vegas,Survivalist's rifle,18,0.08,12.7mm,20.0,,5400.0,x1,48.0,2495,3.9,xx00DD79,10.0,75,4,Rifles,8.5
+Fallout New Vegas,Sniper rifle,19,0.02,.308,27.0,,4100.0,x2,45.0,395,1.93,00004353,5.0,75,6,Rifles,8.0
+Fallout New Vegas,Christine's CoS silencer rifle,20,0.02,.308,38.0,,6100.0,x2.5,62.0,420,1.61,xx0112BA,5.0,75,6,Rifles,5.5
+Fallout New Vegas,Gobi Campaign scout rifle,21,0.018,.308,24.0,,6200.0,x2,48.0,795,2.14,001429E1,6.0,75,6,Rifles,4.5
+Fallout New Vegas,Trail carbine,22,0.06,.44 Magnum,29.0,,3900.0,x1,48.0,2495,1.5,000CD539,8.0,75,5,Rifles,5.5
+Fallout New Vegas,Varmint rifle,23,0.024,5.56mm,35.0,,75.0,x1,18.0,595,1.22,0007EA24,5.0,0,3,Rifles,5.5
+Fallout New Vegas,Ratslayer,24,0.0225,5.56mm,33.0,,2000.0,x5,23.0,995,1.3,000E5B17,8.0,0,3,Rifles,4.5
+Fallout New Vegas,Caravan shotgun,0,2.2,20 gauge,20.0,,675.0,x1,456.4,695,3.21,000CD53A,2.0,25,3,shotguns,3.0
+Fallout New Vegas,Sturdy caravan shotgun,1,4.0,20 gauge,27.0,,875.0,x1,507.1,1495,3.21,001735E3,2.0,0,3,shotguns,3.0
+Fallout New Vegas,Hunting shotgun,2,1.5,12 gauge,28.0,,3800.0,x1,7010.0,995,1.67,0008ED0B,5.0,75,5,shotguns,7.5
+Fallout New Vegas,Dinner Bell,3,1.2,12 gauge,28.0,,4800.0,x1,7510.7,745,1.67,000F0B12,5.0,75,5,shotguns,7.5
+Fallout New Vegas,Lever-action shotgun,4,1.9,20 gauge,25.0,,2000.0,x1,486.9,495,1.8,0008ED0C,5.0,50,4,shotguns,3.0
+Fallout New Vegas,Riot shotgun,5,2.5,12 gauge,17.0,,5500.0,x1,679.5,870,4.0,0008ED0A,12.0,100,7,shotguns,5.0
+Fallout New Vegas,Sawed-off shotgun,6,4.0,12 gauge,37.0,,1950.0,x1,1007.1,395,2.34,0000434C,21.0,50,4,shotguns,4.0
+Fallout New Vegas,Big Boomer,7,3.5,12 gauge,35.0,,2500.0,x1,1208.6,395,2.58,001673CD,21.0,50,4,shotguns,4.0
+Fallout New Vegas,Single shotgun,8,1.4,20 gauge,50.0,,175.0,x1,507.1,995,2.6,000E393B,1.0,0,5,shotguns,7.0
+Fallout New Vegas,.45 Auto SMG,0,2.3,.45 Auto,19.0,,3750.0,x0.06,26.0,2995,11.0,xx00996C,30.0,75,6,SMGs,11.0
+Fallout New Vegas,9mm SMG,1,1.5,9mm,20.0,,850.0,x0.06,14.0,2745,11.0,0008F217,30.0,25,3,SMGs,4.0
+Fallout New Vegas,Vance's 9mm SMG,2,1.5,9mm,20.0,,1500.0,x0.05,17.0,3745,13.0,000E32F4,60.0,25,3,SMGs,4.0
+Fallout New Vegas,10mm SMG,3,2.2,10mm,22.0,,2370.0,x0.08,19.0,2495,9.0,00004321,30.0,50,5,SMGs,5.0
+Fallout New Vegas,Sleepytyme,4,1.7,10mm,22.0,,8250.0,x0.1,22.0,2495,10.0,xx00080D,40.0,50,5,SMGs,5.0
+Fallout New Vegas,12.7mm SMG(GRA),5,2.0,12.7mm,24.0,,5100.0,x0.08,36.0,2495,9.0,001429D1xx00084E,21.0,100,6,SMGs,5.0
+Fallout New Vegas,HH Tools nail gun,6,1.4,Nails,20.0,,5000.0,x0.12,9.0,2745,14.0,xx00925E,90.0,75,2,SMGs,4.0
+Fallout New Vegas,Silenced .22 SMG,7,2.0,.22LR,19.0,,1850.0,x0.23,10.0,4995,11.0,0008F218,180.0,50,2,SMGs,8.0
+Fallout New Vegas,Dynamite,0,,,24.0,750,25.0,,1.0,,0.4,000BA0F3,,0,1,thrown explosives,0.3
+Fallout New Vegas,Fire bomb,1,,,24.0,212,200.0,,20.0,,0.4,xx00BCB4,,50,2,thrown explosives,0.5
+Fallout New Vegas,Flash bang,2,,,24.0,768,50.0,,1.0,,0.65,xx004C35,,50,4,thrown explosives,0.5
+Fallout New Vegas,Frag grenade,3,,,24.0,900,150.0,,1.0,,0.65,00004330,,25,2,thrown explosives,0.5
+Fallout New Vegas,Holy Frag Grenade,4,,,24.0,1500,500.0,,1.0,,0.65,0014EA5A,,0,2,thrown explosives,0.5
+Fallout New Vegas,Incendiary grenade,5,,,24.0,450,200.0,,50.0,,0.65,0014DDDE,,50,2,thrown explosives,0.5
+Fallout New Vegas,Long-fuse dynamite,6,,,24.0,750,25.0,,1.0,,0.4,00109A0C,,0,1,thrown explosives,0.3
+Fallout New Vegas,MFC grenade,7,,,35.0,600,15.0,,1.0,,0.65,xx0008C8,,25,2,thrown explosives,0.5
+Fallout New Vegas,Nuka-grenade,8,,,24.0,450,50.0,,350.0,,0.65,xx000818,,100,2,thrown explosives,0.5
+Fallout New Vegas,Plasma grenade,9,,,24.0,450,300.0,,1.0,,0.65,00004332,,75,2,thrown explosives,0.5
+Fallout New Vegas,Pulse grenade,10,,,24.0,750,40.0,,200.0,,0.65,00004331,,50,2,thrown explosives,0.5
+Fallout New Vegas,Tin grenade,11,,,35.0,768,25.0,,1.0,,0.65,xx000814,,0,2,thrown explosives,0.5
+Fallout New Vegas,Proton throwing axe,0,0.0,,20.0,,100.0,x1,50.0,,0.8,xx00BB5E,,25,1,thrown melee,1.0
+Fallout New Vegas,Protonic inversal throwing axe,1,0.0,,22.0,,200.0,x1,60.0,,0.88,xx00BB5F,,25,1,thrown melee,1.0
+Fallout New Vegas,Throwing hatchet,2,0.0,,22.0,,20.0,x1,20.0,,0.88,0014DE1D,,25,1,thrown melee,2.0
+Fallout New Vegas,Throwing knife,3,0.0,,20.0,,20.0,x2,15.0,,3.2,00161246,,0,1,thrown melee,0.5
+Fallout New Vegas,Throwing knife spear,4,0.0,,28.0,,25.0,x1,42.0,,0.48,xx00119E,,25,1,thrown melee,0.65
+Fallout New Vegas,Throwing spear,5,0.0,,24.0,,25.0,x1,50.0,,0.6,0014D2AC,,25,1,thrown melee,0.5
+Fallout New Vegas,Tomahawk,6,0.0,,23.0,,75.0,x1,30.0,,0.66,xx00BCB6,,50,3,thrown melee,0.5
+Fallout New Vegas,Ballistic fist,0,,,28.0,,7800.0,x1,80.0,395,1.09,0015BA03,,100,9,unarmed,6.0
+Fallout New Vegas,Two-Step Goodbye,1,,,28.0,,20000.0,x4,70.0,395,1.09,xx000809,,100,9,unarmed,6.0
+Fallout New Vegas,Bear trap fist,2,,,28.0,,800.0,x1,27.0,395,1.09,xx00119D,,50,5,unarmed,6.0
+Fallout New Vegas,Bladed gauntlet,3,,,26.0,,200.0,x2,25.0,295,1.57,001519E0,,25,5,unarmed,10.0
+Fallout New Vegas,Cram Opener,4,,,26.0,,800.0,x2,28.0,370,1.7,00151D0C,,25,5,unarmed,10.0
+Fallout New Vegas,Boxing gloves,5,,,28.0,,100.0,x1,1.0,995,1.26,000E5391,,0,1,unarmed,6.0
+Fallout New Vegas,Golden Gloves,6,,,28.0,,100.0,x2,1.0,1245,1.26,000E58BB,,0,1,unarmed,6.0
+Fallout New Vegas,Boxing tape,7,,,28.0,,100.0,x1,4.0,2495,1.26,0012D852,,0,1,unarmed,0.25
+Fallout New Vegas,Brass knuckles,8,,,18.0,,120.0,x1,18.0,995,2.05,00004324,,25,2,unarmed,1.0
+Fallout New Vegas,Displacer glove,9,,,28.0,,3500.0,x1,50.0,495,1.36,00155E66,,100,4,unarmed,6.0
+Fallout New Vegas,Pushy,10,,,28.0,,4200.0,x1,60.0,595,1.47,00155E6D,,100,2,unarmed,6.0
+Fallout New Vegas,Dog tag fist,11,,,35.0,,50.0,x1,20.0,495,1.58,00146C79,,0,1,unarmed,3.0
+Fallout New Vegas,Recompense of the Fallen,12,,,35.0,,250.0,x1,25.0,745,1.89,0012ADB8,,0,1,unarmed,3.0
+Fallout New Vegas,Fist of Rawr Fist of the North Rawr,13,,,24.0,,6200.0,x2,50.0,445,1.96,xx00CA89xx00CA88,,100,6,unarmed,10.0
+Fallout New Vegas,Industrial hand,14,,,65.0,,2500.0,x1,50.0,7995,3.2,xx008CB9,,75,7,unarmed,10.0
+Fallout New Vegas,Mantis gauntlet,15,,,22.0,,750.0,x3,30.0,245,2.02,001524B3,,75,4,unarmed,10.0
+Fallout New Vegas,Embrace of the Mantis King,16,,,25.0,,8500.0,x3,42.0,395,1.57,xx000808,,75,4,unarmed,12.0
+Fallout New Vegas,Power fist(GRA),17,,,28.0,,800.0,x1,40.0,395,1.09,00004347xx000856,,50,5,unarmed,6.0
+Fallout New Vegas,Saturnite fist,18,,,25.0,,1600.0,x1,35.0,795,1.8,xx00F806,,45,4,unarmed,4.0
+Fallout New Vegas,Saturnite fist super-heated,19,,,25.0,,2400.0,x1,55.0,595,1.65,xx00F83C,,55,5,unarmed,4.0
+Fallout New Vegas,Greased Lightning,20,,,28.0,,15000.0,x1,32.0,995,3.0,xx000810,,50,5,unarmed,6.0
+Fallout New Vegas,Salt-Upon-Wounds' power fist,21,,,25.0,,2500.0,x1,45.0,495,1.36,xx00A38D,,50,6,unarmed,6.0
+Fallout New Vegas,Scientist glove,22,,,28.0,,500.0,x1.5,21.0,245,1.36,xx009FFD,,25,2,unarmed,2.0
+Fallout New Vegas,Corrosive glove,23,,,28.0,,1500.0,x1,21.0,745,1.09,xx00A130,,55,2,unarmed,4.0
+Fallout New Vegas,Sterilizer glove,24,,,28.0,,1500.0,x1,21.0,995,1.36,xx00A135,,55,2,unarmed,3.0
+Fallout New Vegas,Dr. Klein's glove,25,,,18.0,,2500.0,x1,34.0,495,1.36,xx00A13E,,45,3,unarmed,4.0
+Fallout New Vegas,Dr. Mobius' glove,26,,,15.0,,3500.0,x2,30.0,495,1.36,xx00A138,,35,2,unarmed,3.0
+Fallout New Vegas,Spiked knuckles,27,,,19.0,,500.0,x1,25.0,1495,2.37,00004354,,50,3,unarmed,1.0
+Fallout New Vegas,Love and Hate,28,,,19.0,,750.0,x1,30.0,1495,2.53,001568E6,,50,3,unarmed,1.0
+Fallout New Vegas,Yao guai gauntlet,29,,,22.0,,150.0,x2.5,20.0,2995,1.63,xx00BCB7,,50,4,unarmed,10.0
+Fallout New Vegas,She's Embrace,30,,,20.0,,420.0,x3,25.0,4495,1.76,xx00BCB8,,50,4,unarmed,10.0
+Fallout New Vegas,Zap glove,31,,,28.0,,5200.0,x1,50.0,495,1.64,0015BA78,,75,4,unarmed,6.0
+Fallout New Vegas,Paladin Toaster,32,,,28.0,,6800.0,x1,50.0,395,1.64,0015BA72,,75,4,unarmed,6.0
